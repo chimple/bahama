@@ -1,0 +1,3193 @@
+{
+  "chapters": [
+    {
+      "id": "maths_quiz",
+      "image": "maths_quiz.png",
+      "type": "exam",
+      "lessons": [
+        {
+          "id": "maths_PreQuiz",
+          "image": "maths_quiz.png",
+          "outcome": "The quiz evaluates the previous learning of the student and places them accordingly in the progressive lesson path. ",
+          "name": "Assessment"
+        }
+      ],
+      "name": "Quiz"
+    },
+    {
+      "id": "maths00",
+      "image": "maths00.png",
+      "color": "#FC8E83",
+      "lessons": [
+        {
+          "id": "maths0000",
+          "image": "maths0000.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson handles number '1' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '1'.",
+          "name": "1"
+        },
+        {
+          "id": "maths0001",
+          "image": "maths0001.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson handles number '2' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '2'.",
+          "name": "2"
+        },
+        {
+          "id": "maths0002",
+          "image": "maths0002.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson handles number '3' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '3'.",
+          "name": "3"
+        },
+        {
+          "id": "challenge1",
+          "image": "acorns_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 1-3"
+        },
+        {
+          "id": "maths0003",
+          "image": "maths0003.png",
+          "color": "#72DDD3",
+          "outcome": "The lesson handles number '4' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '4'.",
+          "name": "4"
+        },
+        {
+          "id": "maths0004",
+          "image": "maths0004.png",
+          "color": "#B8D855",
+          "outcome": "The lesson handles number '5' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '5'.",
+          "name": "5"
+        },
+        {
+          "id": "challenge5",
+          "image": "aim_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 1-5"
+        }
+      ],
+      "name": "Numbers 1-5"
+    },
+    {
+      "id": "maths01",
+      "image": "maths01.png",
+      "color": "#F98AC9",
+      "lessons": [
+        {
+          "id": "maths0100",
+          "image": "maths0100.png",
+          "color": "#FC8E83",
+          "outcome": "Drag and drop the numbers 1-5 in the puzzle. Child becomes familiar with Number Symbols and Names. They also count and match objects, which enhances the subitizing skills in children. ",
+          "name": "Match Numbers 1"
+        },
+        {
+          "id": "maths0101",
+          "image": "maths0101.png",
+          "color": "#F98AC9",
+          "outcome": "Children learn to count numbers on fingers. They also count and match objects, which enhances the subitizing skills in children. ",
+          "name": "Match Numbers 2"
+        },
+        {
+          "id": "maths0102",
+          "image": "maths0102.png",
+          "color": "#D48FF9",
+          "outcome": "Children learn about orders of numbers in relation to other numbers shown. The lesson is developed to help students understand and be able to perform simple tasks of sequencing and placing numbers in a specific order so that they can move on to perform more complex tasks requiring this particular skill in future.",
+          "name": "Number Series "
+        },
+        {
+          "id": "challenge6",
+          "image": "airplane_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge NS 1-5"
+        }
+      ],
+      "name": "Number Sense 1-5"
+    },
+    {
+      "id": "maths02",
+      "image": "maths02.png",
+      "color": "#D48FF9",
+      "lessons": [
+        {
+          "id": "maths0200",
+          "image": "maths0200.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson handles number '6' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '6'.",
+          "name": "6"
+        },
+        {
+          "id": "maths0201",
+          "image": "maths0201.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson handles number '7' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '7'.",
+          "name": "7"
+        },
+        {
+          "id": "maths0202",
+          "image": "maths0202.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson handles number '8' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '8'.",
+          "name": "8"
+        },
+        {
+          "id": "challenge7",
+          "image": "ambulance_rewards.png",
+          "type": "exam",
+          "color": "#B8D855",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 6-8"
+        },
+        {
+          "id": "maths0203",
+          "image": "maths0203.png",
+          "color": "#72DDD3",
+          "outcome": "The lesson handles number '9' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '9'.",
+          "name": "9"
+        },
+        {
+          "id": "maths0205",
+          "image": "maths0205.png",
+          "color": "#72DDD3",
+          "outcome": "The lesson handles number '0' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '0'.",
+          "name": "0"
+        },
+        {
+          "id": "maths0204",
+          "image": "maths0204.png",
+          "color": "#B8D855",
+          "outcome": "The lesson handles number '10' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '10'.",
+          "name": "10"
+        },
+        {
+          "id": "challenge8",
+          "image": "anchor_rewards.png",
+          "type": "exam",
+          "color": "#D48FF9",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 10"
+        }
+      ],
+      "name": "Numbers 6 -10"
+    },
+    {
+      "id": "maths03",
+      "image": "maths03.png",
+      "color": "#B8D855",
+      "lessons": [
+        {
+          "id": "maths0300",
+          "image": "maths0300.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson helps in mapping a certain number of concrete objects to their corresponding numeric value. Also, children hone Subitizing: the skill of counting quickly and accurately by counting groups of objects stacked together.",
+          "name": "Match Numbers 1"
+        },
+        {
+          "id": "maths0301",
+          "image": "maths0301.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson helps in mapping a certain number of concrete objects to their corresponding numeric value. Also, children hone Subitizing: the skill of counting quickly and accurately by counting groups of objects stacked together.",
+          "name": "Match Numbers 2"
+        },
+        {
+          "id": "maths0302",
+          "image": "maths0302.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces children to counting in groups on dice, dominoes and fingers. It also helps in mapping a certain number of concrete objects to their corresponding numeric value. Also, children hone Subitizing: the skill of counting quickly and accurately by counting groups of objects stacked together.",
+          "name": "Match Numbers 3"
+        },
+        {
+          "id": "maths0303",
+          "image": "maths0303.png",
+          "color": "#B8D855",
+          "outcome": "The lesson helps in mapping a certain number of concrete objects to their corresponding numeric value. Also, children hone Subitizing: the skill of counting quickly and accurately by counting groups of objects stacked together.",
+          "name": "Match Numbers 4"
+        },
+        {
+          "id": "challenge9",
+          "image": "arrow_rewards.png",
+          "type": "exam",
+          "color": "#72DDD3",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge NS 1"
+        },
+        {
+          "id": "maths0304",
+          "image": "maths0304.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces children to counting in groups on dice and dominoes. It also helps in mapping a certain number of concrete objects to their corresponding numeric value. Also, children hone Subitizing: the skill of counting quickly and accurately by counting groups of objects stacked together.",
+          "name": "Match Numbers 5"
+        },
+        {
+          "id": "maths0305",
+          "image": "maths0305.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation and basic sequencing of numbers 6-10. The methodology involved is in simple puzzle format. Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice they gain the ability not only to identify the order of cardinal numbers placement, but also grasp the sequence in their pattern.",
+          "name": "Number Order 1-5"
+        },
+        {
+          "id": "maths0306",
+          "image": "maths0306.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation and basic sequencing of numbers 6-10. The methodology involved is in simple puzzle format. Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice they gain the ability not only to identify the order of cardinal numbers placement, but also grasp the sequence in their pattern.",
+          "name": "Number Order 6-10"
+        },
+        {
+          "id": "maths0307",
+          "image": "maths0307.png",
+          "color": "#FC8E83",
+          "outcome": "Being able to observe, recall, and sequence numbers in a specific order is an important math skill. In this lesson, children learn about orders of numbers (1-8) in relation to other numbers shown.",
+          "name": "Number Series 1-8"
+        },
+        {
+          "id": "challenge10",
+          "image": "auction_rewards.png",
+          "type": "exam",
+          "color": "#F98AC9",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge NS 2"
+        },
+        {
+          "id": "maths0308",
+          "image": "maths0308.png",
+          "color": "#D48FF9",
+          "outcome": "Being able to observe, recall, and sequence numbers in a specific order is an important math skill. In this lesson, children learn about orders of numbers (6-9) in relation to other numbers shown.",
+          "name": "Number Series 6-9"
+        },
+        {
+          "id": "maths0309",
+          "image": "maths0309.png",
+          "color": "#B8D855",
+          "outcome": "Being able to observe, recall, and sequence numbers in a specific order is an important math skill. In this lesson, children learn about orders of numbers (7-10) in relation to other numbers shown.",
+          "name": "Number Series 7-10"
+        },
+        {
+          "id": "maths0310",
+          "image": "maths0310.png",
+          "color": "#72DDD3",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation and basic sequencing of numbers 1-9. The methodology involved is in simple puzzle format. Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice they gain the ability not only to identify the order of cardinal numbers placement, but also grasp the sequence in their pattern.",
+          "name": "Number Series 1- 9"
+        },
+        {
+          "id": "maths0311",
+          "image": "maths0311.png",
+          "color": "#B8D855",
+          "outcome": "Children are introduced to arranging numbers in descending order through simple and engaging puzzles.  ",
+          "name": "Big to Small"
+        },
+        {
+          "id": "challenge11",
+          "image": "auto_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge NS 3"
+        }
+      ],
+      "name": "Number Sense 1-10"
+    },
+    {
+      "id": "maths04",
+      "image": "maths04.png",
+      "color": "#72DDD3",
+      "lessons": [
+        {
+          "id": "maths0400",
+          "image": "maths0400.png",
+          "color": "#FC8E83",
+          "outcome": "Introduces circle, square, triangle and rectangle shapes to children. Students learn that the shape doesn't change with size. ",
+          "name": "Shapes 1"
+        },
+        {
+          "id": "maths0401",
+          "image": "maths0401.png",
+          "color": "#F98AC9",
+          "outcome": "Introduces circle, square, triangle and rectangle shapes to children. Students learn that the shape doesn't change with size or colour of an object. They also relate real life objects to geometrical shapes. ",
+          "name": "Shapes 2"
+        },
+        {
+          "id": "maths0402",
+          "image": "maths0402.png",
+          "color": "#D48FF9",
+          "outcome": "Children learn to identify real life objects with the geometric shape name. For example Window = square, cookie = circle, etc. ",
+          "name": "Shapes 3"
+        },
+        {
+          "id": "maths0403",
+          "image": "maths0403.png",
+          "color": "#B8D855",
+          "outcome": "Children learn to identify real-life objects with the geometric shape name. For example Window = square, cookie = circle, etc. They also learn to read the names by matching them with similar shapes.",
+          "name": "Shapes 4"
+        },
+        {
+          "id": "challenge12",
+          "image": "axe_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Shapes 1"
+        }
+      ],
+      "name": "Beginners Shapes"
+    },
+    {
+      "id": "maths05",
+      "image": "maths05.png",
+      "color": "#B8D855",
+      "lessons": [
+        {
+          "id": "maths0500",
+          "image": "maths0500.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson handles number '11' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '11'.",
+          "name": "11"
+        },
+        {
+          "id": "maths0501",
+          "image": "maths0501.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson handles number '12' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '12'.",
+          "name": "12"
+        },
+        {
+          "id": "maths0502",
+          "image": "maths0502.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson handles number '13' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '13'.",
+          "name": "13"
+        },
+        {
+          "id": "maths0503",
+          "image": "maths0503.png",
+          "color": "#B8D855",
+          "outcome": "The lesson handles number '14' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '14'.",
+          "name": "14"
+        },
+        {
+          "id": "challenge13",
+          "image": "babywalker_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 11-14"
+        },
+        {
+          "id": "maths0504",
+          "image": "maths0504.png",
+          "color": "#B8D855",
+          "outcome": "The lesson handles number '15' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '15'.",
+          "name": "15"
+        },
+        {
+          "id": "maths0505",
+          "image": "maths0505.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson handles number '16' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '16'.",
+          "name": "16"
+        },
+        {
+          "id": "maths0506",
+          "image": "maths0506.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson handles number '17' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '17'.",
+          "name": "17"
+        },
+        {
+          "id": "challenge14",
+          "image": "bag_reward.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 15 -17"
+        },
+        {
+          "id": "maths0507",
+          "image": "maths0507.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson handles number '18' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '18'.",
+          "name": "18"
+        },
+        {
+          "id": "maths0508",
+          "image": "maths0508.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson handles number '19' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '19'.",
+          "name": "19"
+        },
+        {
+          "id": "maths0509",
+          "image": "maths0509.png",
+          "color": "#B8D855",
+          "outcome": "The lesson handles number '20' individually which includes saying the number name, writing the number, counting, and recognizing a number of objects for '20'.",
+          "name": "20"
+        },
+        {
+          "id": "challenge15",
+          "image": "bag_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 18 -20"
+        }
+      ],
+      "name": "Numbers 11-20"
+    },
+    {
+      "id": "maths06",
+      "image": "maths06.png",
+      "color": "#D48FF9",
+      "lessons": [
+        {
+          "id": "maths0600",
+          "image": "maths0600.png",
+          "color": "#FC8E83",
+          "outcome": "Children connect the associated numbers by matching them in the puzzle. The puzzles require drag and drop action which involves the fine-motor skills of isolating the index finger for selecting, dragging, and dropping puzzle pieces. It also helps in imporving their writing skills along with instilling concrete math sense in learners. ",
+          "name": "Puzzle Time"
+        },
+        {
+          "id": "maths0601",
+          "image": "maths0601.png",
+          "color": "#F98AC9",
+          "outcome": "Children learn about orders of numbers in relation to other numbers shown. The lesson is developed to help students understand and be able to perform simple tasks of sequencing and placing numbers in a specific order so that they can move on to perform more complex tasks requiring this particular skill in future.",
+          "name": "Number Series"
+        },
+        {
+          "id": "maths0602",
+          "image": "maths0602.png",
+          "color": "#D48FF9",
+          "outcome": "Children learn about orders of numbers in relation to other numbers shown. The lesson is developed to help students understand and be able to perform simple tasks of sequencing and placing numbers in a specific order so that they can move on to perform more complex tasks requiring this particular skill in future.",
+          "name": "Number Series 1"
+        },
+        {
+          "id": "challenge16",
+          "image": "ball_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge NS 4"
+        },
+        {
+          "id": "maths0603",
+          "image": "maths0603.png",
+          "color": "#72DDD3",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation and basic sequencing of numbers 11 - 20. The methodology involved is in simple puzzle format. Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice they gain the ability not only to identify the order of cardinal numbers placement, but also grasp the sequence in their pattern.",
+          "name": "Number Order"
+        },
+        {
+          "id": "maths0604",
+          "image": "maths0604.png",
+          "color": "#B8D855",
+          "outcome": "Children arrange numbers from big to small in order.",
+          "name": "Big to Small"
+        },
+        {
+          "id": "challenge17",
+          "image": "balloon_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge NS 5"
+        }
+      ],
+      "name": "Number Sense 11-20"
+    },
+    {
+      "id": "maths07",
+      "image": "maths07.png",
+      "color": "#F98AC9",
+      "lessons": [
+        {
+          "id": "maths0700",
+          "image": "maths0700.png",
+          "color": "#FC8E83",
+          "outcome": "Children connect the associated numbers by matching them in the puzzle. The puzzles require drag and drop action which involves the fine-motor skills of isolating the index finger for selecting, dragging, and dropping puzzle pieces. It also helps in imporving their writing skills along with instilling concrete math sense in learners. ",
+          "name": "Puzzle Time 21-30"
+        },
+        {
+          "id": "maths0701",
+          "image": "maths0701.png",
+          "color": "#F98AC9",
+          "outcome": "Students trace and write numbers 21 -30 ",
+          "name": "Write 21-30"
+        },
+        {
+          "id": "maths0702",
+          "image": "maths0702.png",
+          "color": "#D48FF9",
+          "outcome": "Children connect the associated numbers by matching them in the puzzle. The puzzles require drag and drop action which involves the fine-motor skills of isolating the index finger for selecting, dragging, and dropping puzzle pieces. It also helps in imporving their writing skills along with instilling concrete math sense in learners. ",
+          "name": "Puzzle Time 31-40"
+        },
+        {
+          "id": "maths0703",
+          "image": "maths0703.png",
+          "color": "#B8D855",
+          "outcome": "Students trace and write numbers 31-40",
+          "name": "Write 31-40"
+        },
+        {
+          "id": "challenge18",
+          "image": "banana_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 21-40"
+        },
+        {
+          "id": "maths0704",
+          "image": "maths0704.png",
+          "color": "#B8D855",
+          "outcome": "Children solve puzzles of numbers 41-50. It reinforces their learning of numbers in addition to the practice in the ordering of numbers. ",
+          "name": "Puzzle Time 41-50"
+        },
+        {
+          "id": "maths0705",
+          "image": "maths0705.png",
+          "color": "#D48FF9",
+          "outcome": "Students trace and write numbers 41 - 50",
+          "name": "Write 41--50"
+        },
+        {
+          "id": "maths0706",
+          "image": "maths0706.png",
+          "color": "#F98AC9",
+          "outcome": "Children solve puzzles of numbers 50 - 60. It reinforces their learning of numbers in addition to the practice in the ordering of numbers. ",
+          "name": "Puzzle Time 51-60"
+        },
+        {
+          "id": "maths0707",
+          "image": "maths0707.png",
+          "color": "#FC8E83",
+          "outcome": "Students trace and write numbers 51 - 60 ",
+          "name": "Write 51-60"
+        },
+        {
+          "id": "challenge19",
+          "image": "basket_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 41-60"
+        },
+        {
+          "id": "maths0708",
+          "image": "maths0708.png",
+          "color": "#D48FF9",
+          "outcome": "Children solve puzzles of numbers 61 - 70. It reinforces their learning of numbers in addition to the practice in the ordering of numbers. ",
+          "name": "Puzzle Time 61-70"
+        },
+        {
+          "id": "maths0709",
+          "image": "maths0709.png",
+          "color": "#B8D855",
+          "outcome": "Students trace and write numbers 61 - 70",
+          "name": "Write 61-70"
+        },
+        {
+          "id": "maths0710",
+          "image": "maths0710.png",
+          "color": "#72DDD3",
+          "outcome": "Children solve puzzles of numbers 71 -80. It reinforces their learning of numbers in addition to the practice in the ordering of numbers. ",
+          "name": "Puzzle Time 71-80"
+        },
+        {
+          "id": "maths0711",
+          "image": "maths0711.png",
+          "color": "#B8D855",
+          "outcome": "Students trace and write numbers 71 - 80",
+          "name": "Write 71-80"
+        },
+        {
+          "id": "challenge20",
+          "image": "bat_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 61-80"
+        },
+        {
+          "id": "maths0712",
+          "image": "maths0712.png",
+          "color": "#F98AC9",
+          "outcome": "Children solve puzzles of numbers 81 - 90. It reinforces their learning of numbers in addition to the practice in the ordering of numbers. ",
+          "name": "Puzzle Time 81-90"
+        },
+        {
+          "id": "maths0713",
+          "image": "maths0713.png",
+          "color": "#FC8E83",
+          "outcome": "Students trace and write numbers 81 - 90",
+          "name": "Write  81-90"
+        },
+        {
+          "id": "maths0714",
+          "image": "maths0714.png",
+          "color": "#F98AC9",
+          "outcome": "Children solve puzzles of numbers 91-100. It reinforces their learning of numbers in addition to the practice in the ordering of numbers. ",
+          "name": "Puzzle Time 91-100"
+        },
+        {
+          "id": "maths0715",
+          "image": "maths0715.png",
+          "color": "#D48FF9",
+          "outcome": "Write numbers from 91-100 by tracing it on a given path. ",
+          "name": "Write 91-100"
+        },
+        {
+          "id": "challenge21",
+          "image": "beaker_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 81-100"
+        }
+      ],
+      "name": "Numbers 21-100"
+    },
+    {
+      "id": "maths08",
+      "image": "maths08.png",
+      "color": "#FC8E83",
+      "lessons": [
+        {
+          "id": "maths0800",
+          "image": "maths0800.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation and basic sequencing of numbers 6-10. The methodology involved is in simple puzzle format. Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice they gain the ability not only to identify the order of cardinal numbers placement, but also grasp the sequence in their pattern.",
+          "name": "Number Order"
+        },
+        {
+          "id": "maths0801",
+          "image": "maths0801.png",
+          "color": "#F98AC9",
+          "outcome": "Children write numbers in order of small to big and big to small. It is important for children to learn both the ascending and descending order of numbers since numbers move in both directions on the number line based on the mathematic operation. ",
+          "name": "Big & Small 1-5"
+        },
+        {
+          "id": "maths0802",
+          "image": "maths0802.png",
+          "color": "#D48FF9",
+          "outcome": "Children will compare the numbers with '10' and understand the relastionship between them as either, bigger, smaller or equal to.  ",
+          "name": "Compare With 10"
+        },
+        {
+          "id": "maths0803",
+          "image": "maths0803.png",
+          "color": "#B8D855",
+          "outcome": "In the lesson, the child has to select the greater than, less than or equal sign to correctly compare the numbers and objects on each side of the weighing machine. The child will also add/subtract numbers for comparison. It will also will also familiarize children with the symbols -  =, < and > (is equal to, smaller than and greater than).",
+          "name": "Count and Compare"
+        },
+        {
+          "id": "challenge22",
+          "image": "bell_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge NS 6"
+        },
+        {
+          "id": "maths0804",
+          "image": "maths0804.png",
+          "color": "#B8D855",
+          "outcome": "Children are introduced to arranging numbers (1-10) in descending order through simple and engaging puzzles.  ",
+          "name": "Big & Small  1-10"
+        },
+        {
+          "id": "maths0805",
+          "image": "maths0805.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson is based on100s a chart; a simple chequered chart, 10-by-10 grid, with the numbers one to one hundred arranged in the squares. Number sense is developed in children basically through the number line and introduction of base ten blocks. 100s chart is a combination of both, the number line and base 10 blocks, in a very simple format. Children envision the numbers which are arranged in groups of ten which helps them to visualize the number patterns of tens and ones in both horizontal and vertical directions.",
+          "name": "Arrange Numbers 1-100"
+        },
+        {
+          "id": "maths0806",
+          "image": "maths0806.png",
+          "color": "#F98AC9",
+          "outcome": "3D shapes are presented to children from different angles. By matching similar objects by identification of their common properties, a child develops skills which can be applied in future to identify congruent or similar triangles, working problems of sets and many more math problems. ",
+          "name": "3D shapes"
+        },
+        {
+          "id": "challenge23",
+          "image": "bicycle_rewards.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge NS 7"
+        }
+      ],
+      "name": "Number Sense 1 - 100"
+    },
+    {
+      "id": "maths09",
+      "image": "maths09.png",
+      "color": "#F98AC9",
+      "lessons": [
+        {
+          "id": "maths0900",
+          "image": "maths0900.png",
+          "color": "#FC8E83",
+          "outcome": "Simple addition of additing '1' to a number. Working with different forms of addition, the child will gain a thorough understanding of the concept of addition. The images and  visuals aids in the Chimple app can have a huge impact on how students retain information.",
+          "name": "Add 1"
+        },
+        {
+          "id": "maths0901",
+          "image": "maths0901.png",
+          "color": "#F98AC9",
+          "outcome": "Simple addition of additing '2' to a number. Working with different forms of addition, the child will gain a thorough understanding of the concept of addition. The images and  visuals aids in the Chimple app can have a huge impact on how students retain information.",
+          "name": "Add 2"
+        },
+        {
+          "id": "maths0902",
+          "image": "maths0902.png",
+          "color": "#D48FF9",
+          "outcome": "Simple addition of additing numbers '3' and '4' to a number. Working with different forms of addition, the child will gain a thorough understanding of the concept of addition. The images and  visuals aids in the Chimple app can have a huge impact on how students retain information.",
+          "name": "Add 3 and 4"
+        },
+        {
+          "id": "maths0903",
+          "image": "maths0903.png",
+          "color": "#B8D855",
+          "outcome": "Chimple uses interactive lessons to help students understand the basics of addition. The questions are presented in short quiz format. ",
+          "name": "Quick  Addition 1"
+        },
+        {
+          "id": "challenge24",
+          "image": "bottle_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Add Easy"
+        },
+        {
+          "id": "maths0904",
+          "image": "maths0904.png",
+          "color": "#B8D855",
+          "outcome": "Chimple uses interactive lessons to help students understand the basics of addition. The questions are presented in short quiz format. ",
+          "name": "Quick  Addition 2"
+        },
+        {
+          "id": "maths0905",
+          "image": "maths0905.png",
+          "color": "#D48FF9",
+          "outcome": "Chimple uses interactive lessons to help students understand the basics of addition. The questions are presented in short quiz format. ",
+          "name": "Quick  Addition 3"
+        },
+        {
+          "id": "maths0906",
+          "image": "maths0906.png",
+          "color": "#F98AC9",
+          "outcome": "In this lesson, a part of the equation is already given. The jars have fruits in specific numbers placed below. The child drags the jars to complete the equation counting objects inside the jars. Children learn to use numbers, including written numerals, to represent quantities and to solve a quantitative problems. ",
+          "name": "Count and Add -1"
+        },
+        {
+          "id": "maths0907",
+          "image": "maths0907.png",
+          "color": "#FC8E83",
+          "outcome": "In this lesson, a part of the equation is already given. The jars have fruits in specific numbers placed below. The child drags the jars to complete the equation counting objects inside the jars. Children learn to use numbers, including written numerals, to represent quantities and to solve a quantitative problems. ",
+          "name": "Count and Add -2"
+        },
+        {
+          "id": "challenge25",
+          "image": "bottlemilk_reward.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Simply Add"
+        }
+      ],
+      "name": "Addition Beginners"
+    },
+    {
+      "id": "maths10",
+      "image": "maths10.png",
+      "color": "#D48FF9",
+      "lessons": [
+        {
+          "id": "maths1000",
+          "image": "maths1000.png",
+          "color": "#FC8E83",
+          "outcome": "Children learn subtraction as an independent math operation, without relating it to addition. Here they take away just '1' from a number to learn basics of subtraction. ",
+          "name": "Subtract 1"
+        },
+        {
+          "id": "maths1001",
+          "image": "maths1001.png",
+          "color": "#F98AC9",
+          "outcome": "Children learn subtraction as an independent math operation, without relating it to addition. Here they take away just '2' from a number to learn basics of subtraction. ",
+          "name": "Subtract 2"
+        },
+        {
+          "id": "maths1002",
+          "image": "maths1002.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson progresses a bit higher than basics. Here they take away '3' or '4'' from a number to learn basics of subtraction. ",
+          "name": "Subtract 3 & 4"
+        },
+        {
+          "id": "maths1003",
+          "image": "maths1003.png",
+          "color": "#B8D855",
+          "outcome": "Counting and subtracting helps children understand the concept of subtraction. ",
+          "name": "Count & Subtract 1"
+        },
+        {
+          "id": "challenge26",
+          "image": "bowl_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Sub Easy"
+        },
+        {
+          "id": "maths1004",
+          "image": "maths1004.png",
+          "color": "#B8D855",
+          "outcome": "Counting and subtracting helps children understand the concept of subtraction. Here children will subtract '2' from a number.",
+          "name": "Count & Subtract 2"
+        },
+        {
+          "id": "maths1005",
+          "image": "maths1005.png",
+          "color": "#D48FF9",
+          "outcome": "Speed subtraction helps children subtract without counting objects, depending on their acquired knowledge of numbers. ",
+          "name": "Speed Subtraction 1"
+        },
+        {
+          "id": "maths1006",
+          "image": "maths1006.png",
+          "color": "#F98AC9",
+          "outcome": "Speed subtraction helps children subtract without counting objects, depending on their acquired knowledge of numbers. ",
+          "name": "Speed Subtraction 2"
+        },
+        {
+          "id": "challenge27",
+          "image": "brim_reward.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Sub Simple"
+        }
+      ],
+      "name": "Subtraction Beginners"
+    },
+    {
+      "id": "maths11",
+      "image": "maths11.png",
+      "color": "#B8D855",
+      "lessons": [
+        {
+          "id": "maths1100",
+          "image": "maths1100.png",
+          "color": "#FC8E83",
+          "outcome": "Write number from 100 -110 by tracing it on a given path. ",
+          "name": "Write 100-110"
+        },
+        {
+          "id": "maths1101",
+          "image": "maths1101.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 100-150.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "100 -150"
+        },
+        {
+          "id": "maths1102",
+          "image": "maths1102.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 150-200.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "150 -200"
+        },
+        {
+          "id": "maths1103",
+          "image": "maths1103.png",
+          "color": "#B8D855",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 200 - 250.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "200 - 250"
+        },
+        {
+          "id": "challenge28",
+          "image": "broom_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 100-250"
+        },
+        {
+          "id": "maths1104",
+          "image": "maths1104.png",
+          "color": "#B8D855",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 250 - 300.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "250 - 300"
+        },
+        {
+          "id": "maths1105",
+          "image": "maths1105.png",
+          "color": "#72DDD3",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 300 - 400.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "300 - 400"
+        },
+        {
+          "id": "maths1106",
+          "image": "maths1106.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 400 - 500.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "400 - 500"
+        },
+        {
+          "id": "challenge29",
+          "image": "brush_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 250-500"
+        },
+        {
+          "id": "maths1107",
+          "image": "maths1107.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 500 - 600.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "500 - 600"
+        },
+        {
+          "id": "maths1108",
+          "image": "maths1108.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 600 - 700.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "600 - 700"
+        },
+        {
+          "id": "maths1109",
+          "image": "maths1109.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 700 - 800.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "700 - 800"
+        },
+        {
+          "id": "challenge30",
+          "image": "butter_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 500-800"
+        },
+        {
+          "id": "maths1110",
+          "image": "maths1110.png",
+          "color": "#72DDD3",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 800 - 900.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "800 - 900"
+        },
+        {
+          "id": "maths1111",
+          "image": "maths1111.png",
+          "color": "#B8D855",
+          "outcome": "The lesson has a numeric puzzle through which children learn ordering, seriation, and basic sequencing of numbers 900 - 999.  Numbers are arranged in ascending order on a board. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "900 - 999"
+        },
+        {
+          "id": "maths1112",
+          "image": "maths1112.png",
+          "color": "#D48FF9",
+          "outcome": "Includes both ascending and descending order of 3 digit numbers. Children fill the blank space with the right number in the sequence. ",
+          "name": "Number Order"
+        },
+        {
+          "id": "challenge31",
+          "image": "butterfly_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge 800-999"
+        }
+      ],
+      "name": "3 Digit Numbers"
+    },
+    {
+      "id": "maths12",
+      "image": "maths12.png",
+      "color": "#D48FF9",
+      "lessons": [
+        {
+          "id": "maths1200",
+          "image": "maths1200.png",
+          "color": "#FC8E83",
+          "outcome": "Place value of numbers 1-20. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 1- 20"
+        },
+        {
+          "id": "maths1201",
+          "image": "maths1201.png",
+          "color": "#F98AC9",
+          "outcome": "Place value of numbers 21-30. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 21-30"
+        },
+        {
+          "id": "maths1202",
+          "image": "maths1202.png",
+          "color": "#D48FF9",
+          "outcome": "Place value of numbers 31 - 40. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 31 - 40"
+        },
+        {
+          "id": "maths1203",
+          "image": "maths1203.png",
+          "color": "#B8D855",
+          "outcome": "Place value of numbers 41 - 50. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 41 - 50"
+        },
+        {
+          "id": "challenge32",
+          "image": "button_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PV 1"
+        },
+        {
+          "id": "maths1204",
+          "image": "maths1204.png",
+          "color": "#B8D855",
+          "outcome": "Place value of numbers 51 - 60. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "51 - 60"
+        },
+        {
+          "id": "maths1205",
+          "image": "maths1205.png",
+          "color": "#D48FF9",
+          "outcome": "Place value of numbers 61 - 70. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "61 - 70"
+        },
+        {
+          "id": "maths1206",
+          "image": "maths1206.png",
+          "color": "#F98AC9",
+          "outcome": "Place value of numbers 71 - 80. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 71 - 80"
+        },
+        {
+          "id": "maths1207",
+          "image": "maths1207.png",
+          "color": "#FC8E83",
+          "outcome": "Place value of numbers 81 - 90. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "81 - 90"
+        },
+        {
+          "id": "challenge33",
+          "image": "cake_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PV 2"
+        },
+        {
+          "id": "maths1208",
+          "image": "maths1208.png",
+          "color": "#D48FF9",
+          "outcome": "Place value of numbers 91 - 100. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "91 - 100"
+        },
+        {
+          "id": "maths1209",
+          "image": "maths1209.png",
+          "color": "#B8D855",
+          "outcome": "Place value of numbers 20 - 99. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "20 - 99"
+        },
+        {
+          "id": "maths1210",
+          "image": "maths1210.png",
+          "color": "#72DDD3",
+          "outcome": "Place value of numbers 100-300. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "100 - 200"
+        },
+        {
+          "id": "maths1211",
+          "image": "maths1211.png",
+          "color": "#B8D855",
+          "outcome": "Place value of numbers 300-900. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "300 - 900"
+        },
+        {
+          "id": "challenge34",
+          "image": "camel_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PV 3"
+        }
+      ],
+      "name": "Place Value 1"
+    },
+    {
+      "id": "maths13",
+      "image": "maths13.png",
+      "color": "#F98AC9",
+      "lessons": [
+        {
+          "id": "maths1300",
+          "image": "maths1300.png",
+          "color": "#FC8E83",
+          "outcome": "Fill the missing number to complete the series of two-digit numbers arranged in ascending order. ",
+          "name": "Small to Big"
+        },
+        {
+          "id": "maths1301",
+          "image": "maths1301.png",
+          "color": "#F98AC9",
+          "outcome": "Fill the missing number to complete the series of two-digit numbers arranged in descending order. ",
+          "name": "Big to Small"
+        },
+        {
+          "id": "maths1302",
+          "image": "maths1302.png",
+          "color": "#D48FF9",
+          "outcome": "By working on the exercises in this lesson, children notice the numerical patterns of skip counting by 2's.  The more patterns they see in numbers the more generalizations they can make about how numbers work. The skill is highly needed for them for working out math problems and when they move to higher computations.",
+          "name": "Skip by 2's "
+        },
+        {
+          "id": "maths1303",
+          "image": "maths1303.png",
+          "color": "#B8D855",
+          "outcome": "By working on the exercises in this lesson, children notice the numerical patterns of skip counting by 2's.  The more patterns they see in numbers the more generalizations they can make about how numbers work. The skill is highly needed for them for working out math problems and when they move to higher computations.",
+          "name": "More Skip by 2's "
+        },
+        {
+          "id": "challenge35",
+          "image": "camera_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MSB 1"
+        },
+        {
+          "id": "maths1304",
+          "image": "maths1304.png",
+          "color": "#B8D855",
+          "outcome": "Counting backward is an important strategy that children will later use in solving subtraction problems. Through the number series, number order and big to small lessons, children are counting forward and backward which helps to develop understanding of relative size and how numbers are related to one another.",
+          "name": "Count Backwards"
+        },
+        {
+          "id": "maths1305",
+          "image": "maths1305.png",
+          "color": "#D48FF9",
+          "outcome": "Place value of numbers 100-300. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "Place Value 100-300"
+        },
+        {
+          "id": "maths1306",
+          "image": "maths1306.png",
+          "color": "#F98AC9",
+          "outcome": "Place value of numbers 300-500. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "Place Value 300-500"
+        },
+        {
+          "id": "challenge36",
+          "image": "candle_rewards.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MSB 2"
+        },
+        {
+          "id": "maths1307",
+          "image": "maths1307.png",
+          "color": "#F98AC9",
+          "outcome": "Place value of numbers 100-500. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 100-500"
+        },
+        {
+          "id": "maths1308",
+          "image": "maths1308.png",
+          "color": "#D48FF9",
+          "outcome": "Teaches the concept of even numbers.",
+          "name": "Even Numbers"
+        },
+        {
+          "id": "maths1309",
+          "image": "maths1309.png",
+          "color": "#B8D855",
+          "outcome": "Teaches the concept of odd numbers.",
+          "name": "Odd Numbers"
+        },
+        {
+          "id": "challenge37",
+          "image": "cheese_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MSB 3"
+        },
+        {
+          "id": "maths1310",
+          "image": "maths1310.png",
+          "color": "#B8D855",
+          "outcome": "Children learn names of shapes like Hexagon, parallelogram, rhombus etc",
+          "name": "Shapes Advanced"
+        },
+        {
+          "id": "maths1311",
+          "image": "maths1311.png",
+          "color": "#D48FF9",
+          "outcome": "Children match and learn names and appearance of advanced shapes. ",
+          "name": "2D & 3D Shapes"
+        },
+        {
+          "id": "maths1312",
+          "image": "maths1312.png",
+          "color": "#F98AC9",
+          "outcome": "Children match the geometric shapes to real-life objects.",
+          "name": "Shapes and Solids"
+        },
+        {
+          "id": "challenge38",
+          "image": "cherry_rewards.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MSB 4"
+        }
+      ],
+      "name": "Math Sense Beginners"
+    },
+    {
+      "id": "maths14",
+      "image": "maths14.png",
+      "color": "#D48FF9",
+      "lessons": [
+        {
+          "id": "maths1400",
+          "image": "maths1400.png",
+          "color": "#FC8E83",
+          "outcome": "Since children typically see a quantity as an aggregate of single units, they need to count when finding the total or to subtract a quantity from an aggregate. The game helps the child by giving visual clues and objects to count to find the correct answer. Counting helps the child to know that the larger number is made of parts of smaller numbers",
+          "name": "Addition Beginners"
+        },
+        {
+          "id": "maths1401",
+          "image": "maths1401.png",
+          "color": "#F98AC9",
+          "outcome": "Since children typically see a quantity as an aggregate of single units, they need to count when finding the total or to subtract a quantity from an aggregate. The game helps the child by giving visual clues and objects to count to find the correct answer. Counting helps the child to know that the larger number is made of parts of smaller numbers",
+          "name": "Addition"
+        },
+        {
+          "id": "maths1402",
+          "image": "maths1402.png",
+          "color": "#D48FF9",
+          "outcome": "When children count and add they understand the quantity the numbers represent. It will help them add and learn the meaning of numbers as well. The concept of addition is made simple by counting. ",
+          "name": "Count & Add 1"
+        },
+        {
+          "id": "maths1403",
+          "image": "maths1403.png",
+          "color": "#B8D855",
+          "outcome": "When children count and add they understand the quantity the numbers represent. It will help them add and learn the meaning of numbers as well. The concept of addition is made simple by counting. ",
+          "name": "Count & Add 2"
+        },
+        {
+          "id": "challenge39",
+          "image": "chocolate_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Add Basic 1"
+        },
+        {
+          "id": "maths1404",
+          "image": "maths1404.png",
+          "color": "#B8D855",
+          "outcome": "Children become familiar with numbers that when summed together will form the number '10'. Eg. 8+2. 4+6 etc",
+          "name": "Family of 10"
+        },
+        {
+          "id": "maths1405",
+          "image": "maths1405.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 1-10"
+        },
+        {
+          "id": "maths1406",
+          "image": "maths1406.png",
+          "color": "#F98AC9",
+          "outcome": "The child solves a simple equation of either addition and clicks on the right answer to progress to the next activity. If the child clicks on the wrong answer it disappears so that the next choice will be from a lesser quantity of numbers.",
+          "name": "Addition 1"
+        },
+        {
+          "id": "maths1407",
+          "image": "maths1407.png",
+          "color": "#FC8E83",
+          "outcome": "The child solves a simple equation of either addition and clicks on the right answer to progress to the next activity. If the child clicks on the wrong answer it disappears so that the next choice will be from a lesser quantity of numbers.",
+          "name": "Addition 2"
+        },
+        {
+          "id": "challenge40",
+          "image": "clock_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Add Basic 2"
+        },
+        {
+          "id": "maths1408",
+          "image": "maths1408.png",
+          "color": "#D48FF9",
+          "outcome": "The child solves a simple equation of either addition and clicks on the right answer to progress to the next activity. If the child clicks on the wrong answer it disappears so that the next choice will be from a lesser quantity of numbers.",
+          "name": "Addition 3"
+        },
+        {
+          "id": "maths1409",
+          "image": "maths1409.png",
+          "color": "#B8D855",
+          "outcome": "The child performs basic addition either mentally or if challenged by counting the objects presented in the boxes which hold the quantities in ten and dragging the right answer to its respective place.",
+          "name": "Addition Mastery"
+        },
+        {
+          "id": "maths1410",
+          "image": "maths1410.png",
+          "color": "#72DDD3",
+          "outcome": "The lessons presents number equations that add to '20' ",
+          "name": "Family Of 20 - 1"
+        },
+        {
+          "id": "maths1411",
+          "image": "maths1411.png",
+          "color": "#B8D855",
+          "outcome": "The lessons presents number equations that add to '20' ",
+          "name": "Family Of 20 - 2"
+        },
+        {
+          "id": "challenge41",
+          "image": "comb_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Add Basic 3"
+        },
+        {
+          "id": "maths1412",
+          "image": "maths1412.png",
+          "color": "#F98AC9",
+          "outcome": "Children add numbers between 1 - 20",
+          "name": "Beginners  Addition 1-20"
+        },
+        {
+          "id": "maths1413",
+          "image": "maths1413.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition (numbers 1-20)for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "More Addition 1-20"
+        },
+        {
+          "id": "maths1414",
+          "image": "maths1414.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 20"
+        },
+        {
+          "id": "maths1415",
+          "image": "maths1415.png",
+          "color": "#D48FF9",
+          "outcome": "Children add numbers between 11 - 20",
+          "name": "Addition 11-20"
+        },
+        {
+          "id": "challenge42",
+          "image": "compass_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Add basic 4"
+        }
+      ],
+      "name": "Addition Basic"
+    },
+    {
+      "id": "maths15",
+      "image": "maths15.png",
+      "color": "#F98AC9",
+      "lessons": [
+        {
+          "id": "maths1500",
+          "image": "maths1500.png",
+          "color": "#FC8E83",
+          "outcome": "Children count and subtract single digit numbers. Research has proven that counting single units as the primary strategy for solving arithmetic tasks helps children develop basic computational skills.",
+          "name": "Beginners 1"
+        },
+        {
+          "id": "maths1501",
+          "image": "maths1501.png",
+          "color": "#F98AC9",
+          "outcome": "Children count and subtract single digit numbers. Research has proven that counting single units as the primary strategy for solving arithmetic tasks helps children develop basic computational skills.",
+          "name": "Beginners 2"
+        },
+        {
+          "id": "maths1502",
+          "image": "maths1502.png",
+          "color": "#D48FF9",
+          "outcome": "Subtraction of numbers from 10 given in progressive order",
+          "name": "Subtract From 10"
+        },
+        {
+          "id": "maths1503",
+          "image": "maths1503.png",
+          "color": "#B8D855",
+          "outcome": "In this lesson, the child will count and subtract numbers. A part of the equation is already given. The jars have fruits in specific numbers placed below. The child drags the jars to complete the equation counting objects inside the jars. Children learn to use numbers, including written numerals, to represent quantities and to solve a quantitative problems. ",
+          "name": "Count and Subtract 1"
+        },
+        {
+          "id": "challenge43",
+          "image": "cooler_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SB 1"
+        },
+        {
+          "id": "maths1504",
+          "image": "maths1504.png",
+          "color": "#B8D855",
+          "outcome": "Children count and subtract single digit numbers. Research has proven that counting single units as the primary strategy for solving arithmetic tasks helps children develop basic computational skills.",
+          "name": "Count and Subtract 2"
+        },
+        {
+          "id": "maths1505",
+          "image": "maths1505.png",
+          "color": "#D48FF9",
+          "outcome": "Children count and subtract single digit numbers. Research has proven that counting single units as the primary strategy for solving arithmetic tasks helps children develop basic computational skills.",
+          "name": "Count and Subtract 3"
+        },
+        {
+          "id": "maths1506",
+          "image": "maths1506.png",
+          "color": "#F98AC9",
+          "outcome": "Speed subtraction helps children subtract without counting objects, depending on their acquired knowledge of numbers. ",
+          "name": "Subtraction 1"
+        },
+        {
+          "id": "maths1507",
+          "image": "maths1507.png",
+          "color": "#FC8E83",
+          "outcome": "Quick subtraction without objects to count. Improves skill of mental calculations in maths.",
+          "name": "Subtraction 2"
+        },
+        {
+          "id": "challenge44",
+          "image": "crown_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SB 2"
+        },
+        {
+          "id": "maths1508",
+          "image": "maths1508.png",
+          "color": "#D48FF9",
+          "outcome": "Quick subtraction without objects to count. Improves skill of mental calculations in maths.",
+          "name": "Subtraction 3"
+        },
+        {
+          "id": "maths1509",
+          "image": "maths1509.png",
+          "color": "#B8D855",
+          "outcome": "Numbers are subtracted from '10' in progressive order.",
+          "name": "10's Subtraction"
+        },
+        {
+          "id": "maths1510",
+          "image": "maths1510.png",
+          "color": "#72DDD3",
+          "outcome": "The child performs basic subtraction either mentally or if challenged by counting the objects presented in the boxes which hold the quantities in ten and dragging the right answer to its respective place.",
+          "name": "Subtraction Mastery 1"
+        },
+        {
+          "id": "maths1511",
+          "image": "maths1511.png",
+          "color": "#B8D855",
+          "outcome": "The child performs basic subtraction either mentally or if challenged by counting the objects presented in the boxes which hold the quantities in ten and dragging the right answer to its respective place.",
+          "name": "Subtraction Mastery 2"
+        },
+        {
+          "id": "challenge45",
+          "image": "cutter_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SB 3"
+        },
+        {
+          "id": "maths1512",
+          "image": "maths1512.png",
+          "color": "#F98AC9",
+          "outcome": "The child performs basic subtraction either mentally or if challenged by counting the objects presented in the boxes which hold the quantities in ten and dragging the right answer to its respective place.",
+          "name": "Subtraction Mastery 3"
+        },
+        {
+          "id": "maths1513",
+          "image": "maths1513.png",
+          "color": "#FC8E83",
+          "outcome": "Repeat subtraction from the number 20 will reinforce the concept of subtraction in children. ",
+          "name": "Subtract From 20"
+        },
+        {
+          "id": "maths1514",
+          "image": "maths1514.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the subtraction sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator 1"
+        },
+        {
+          "id": "maths1515",
+          "image": "maths1515.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the subtraction sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator 2"
+        },
+        {
+          "id": "challenge46",
+          "image": "decree_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SB 4"
+        }
+      ],
+      "name": "Subtraction Basic"
+    },
+    {
+      "id": "maths16",
+      "image": "maths16.png",
+      "color": "#FC8E83",
+      "lessons": [
+        {
+          "id": "maths1600",
+          "image": "maths1600.png",
+          "color": "#FC8E83",
+          "outcome": "Skip counting backward in 2's. Counting backward helps children understand subtraction. Since children usually learn by rote, counting backwards challenges thier real understanding of numbers and their math sense. ",
+          "name": "Skip 2's Backward"
+        },
+        {
+          "id": "maths1601",
+          "image": "maths1601.png",
+          "color": "#F98AC9",
+          "outcome": "Children solve exercises by skip counting by 5's. This is one of the techniques that is used for teaching multiplication to children. It helps in counting money as well.",
+          "name": "Skip By 5's"
+        },
+        {
+          "id": "maths1602",
+          "image": "maths1602.png",
+          "color": "#D48FF9",
+          "outcome": "Skip counting backward in 5's. Counting backward helps children understand subtraction. Since children usually learn by rote, counting backwards challenges thier real understanding of numbers and their math sense. ",
+          "name": "Skip By 5's Backwards"
+        },
+        {
+          "id": "challenge47",
+          "image": "deer_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Skip 1"
+        },
+        {
+          "id": "maths1603",
+          "image": "maths1603.png",
+          "color": "#72DDD3",
+          "outcome": "Children solve exercises by skip counting by 10's. This is one of the techniques that is used for teaching multiplication to children. It helps in counting money as well.",
+          "name": "Skip By 10's"
+        },
+        {
+          "id": "maths1604",
+          "image": "maths1604.png",
+          "color": "#B8D855",
+          "outcome": "Skip counting backward in 10's. Counting backward helps children understand subtraction. Since children usually learn by rote, counting backwards challenges thier real understanding of numbers and their math sense. ",
+          "name": "Skip By 10's Backwards"
+        },
+        {
+          "id": "maths1605",
+          "image": "maths1605.png",
+          "color": "#D48FF9",
+          "outcome": "By working on the exercises in this lesson, children notice the numerical patterns of skip counting by 100's.  The more patterns they see in numbers the more generalizations they can make about how numbers work. The skill is highly needed for them for working out math problems and when they move to higher computations.",
+          "name": "Skip By 100"
+        },
+        {
+          "id": "challenge48",
+          "image": "diamond_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Skip 2"
+        }
+      ],
+      "name": "Skip Counting"
+    },
+    {
+      "id": "maths17",
+      "image": "maths17.png",
+      "color": "#F98AC9",
+      "lessons": [
+        {
+          "id": "maths1700",
+          "image": "maths1700.png",
+          "color": "#FC8E83",
+          "outcome": "The learner will observe either the objects or numbers (1-20), compare them, and pick the right symbol to indicate their properties in connection with each other. The lesson will also familiarize children with the symbols -  =, < and > (is equal to, smaller than, and greater than).",
+          "name": "Big & Small  1-20"
+        },
+        {
+          "id": "maths1701",
+          "image": "maths1701.png",
+          "color": "#F98AC9",
+          "outcome": "The learner will observe either the objects or numbers (1-50), compare them, and pick the right symbol to indicate their properties in connection with each other. The lesson will also familiarize children with the symbols -  =, < and > (is equal to, smaller than, and greater than).",
+          "name": "Big & Small 1-50"
+        },
+        {
+          "id": "maths1702",
+          "image": "maths1702.png",
+          "color": "#D48FF9",
+          "outcome": "The learner will observe either the objects or numbers (1-50), compare them, and pick the right symbol to indicate their properties in connection with each other. The lesson will also familiarize children with the symbols -  =, < and > (is equal to, smaller than, and greater than).",
+          "name": "More Big & Small  1-50"
+        },
+        {
+          "id": "maths1703",
+          "image": "maths1703.png",
+          "color": "#B8D855",
+          "outcome": "The learner will observe either the objects or numbers (50-90), compare them, and pick the right symbol to indicate their properties in connection with each other. The lesson will also familiarize children with the symbols -  =, < and > (is equal to, smaller than, and greater than).",
+          "name": "Less or More  50-90"
+        },
+        {
+          "id": "challenge49",
+          "image": "dice_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge CON 1"
+        },
+        {
+          "id": "maths1704",
+          "image": "maths1704.png",
+          "color": "#B8D855",
+          "outcome": "The learner will observe either the objects or numbers (1-100), compare them, and pick the right symbol to indicate their properties in connection with each other. The lesson will also familiarize children with the symbols -  =, < and > (is equal to, smaller than, and greater than).",
+          "name": "Less or More 1-100"
+        },
+        {
+          "id": "maths1705",
+          "image": "maths1705.png",
+          "color": "#D48FF9",
+          "outcome": "The learner will observe either the objects or numbers (1-900), compare them, and pick the right symbol to indicate their properties in connection with each other. The lesson will also familiarize children with the symbols -  =, < and > (is equal to, smaller than, and greater than).",
+          "name": "Less or More 1-900"
+        },
+        {
+          "id": "maths1706",
+          "image": "maths1706.png",
+          "color": "#F98AC9",
+          "outcome": "The learner will observe either the objects or numbers (1-999), compare them, and pick the right symbol to indicate their properties in connection with each other. The lesson will also familiarize children with the symbols -  =, < and > (is equal to, smaller than, and greater than).",
+          "name": "Less or More 1-999"
+        },
+        {
+          "id": "maths1707",
+          "image": "maths1707.png",
+          "color": "#FC8E83",
+          "outcome": "The learner will observe either the objects or numbers (100=999), compare them, and pick the right symbol to indicate their properties in connection with each other. The lesson will also familiarize children with the symbols -  =, < and > (is equal to, smaller than, and greater than).",
+          "name": "Comparison 100-999"
+        },
+        {
+          "id": "challenge50",
+          "image": "donut_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge CON 2"
+        }
+      ],
+      "name": "Comparison Of Numbers"
+    },
+    {
+      "id": "maths18",
+      "image": "maths18.png",
+      "color": "#D48FF9",
+      "lessons": [
+        {
+          "id": "maths1800",
+          "image": "maths1800.png",
+          "color": "#FC8E83",
+          "outcome": "Children write numbers in order of small to big and big to small. It is important for children to learn both the ascending and descending order of numbers since numbers move in both directions on the number line based on the mathematic operation. ",
+          "name": "Ascending and Descending"
+        },
+        {
+          "id": "maths1801",
+          "image": "maths1801.png",
+          "color": "#F98AC9",
+          "outcome": "Children write numbers in order of small to big and big to small. It is important for children to learn both the ascending and descending order of numbers since numbers move in both directions on the number line based on the mathematic operation. ",
+          "name": "Ascending and Descending -1"
+        },
+        {
+          "id": "maths1802",
+          "image": "maths1802.png",
+          "color": "#D48FF9",
+          "outcome": "Children write numbers in order of small to big and big to small. It is important for children to learn both the ascending and descending order of numbers since numbers move in both directions on the number line based on the mathematic operation. ",
+          "name": "Ascending and Descending -2"
+        },
+        {
+          "id": "maths1803",
+          "image": "maths1803.png",
+          "color": "#B8D855",
+          "outcome": "Children learn to identify even and odd numbers in this lesson which is an important skill that will help them understand our number system and aid in their preparation to group whole number operations. It will also help prepare them to learn division, prime numbers and even square roots. ",
+          "name": "Even and Odd Numbers"
+        },
+        {
+          "id": "challenge51",
+          "image": "drafter_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Revision 1"
+        },
+        {
+          "id": "maths1804",
+          "image": "maths1804.png",
+          "color": "#B8D855",
+          "outcome": "Teaches the concept of odd numbers to children. ",
+          "name": "Odd Numbers"
+        },
+        {
+          "id": "maths1805",
+          "image": "maths1805.png",
+          "color": "#D48FF9",
+          "outcome": "Counting backward is an important strategy that children will later use in solving subtraction problems. Through the number series, number order and big to small lessons, children are counting forward and backward which helps to develop understanding of relative size and how numbers are related to one another.",
+          "name": "Count Backwards 1"
+        },
+        {
+          "id": "maths1806",
+          "image": "maths1806.png",
+          "color": "#F98AC9",
+          "outcome": "Counting backward is an important strategy that children will later use in solving subtraction problems. Through the number series, number order and big to small lessons, children are counting forward and backward which helps to develop understanding of relative size and how numbers are related to one another.",
+          "name": "Count Backwards 2"
+        },
+        {
+          "id": "challenge52",
+          "image": "dragonfruit_rewards.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Revision 2"
+        }
+      ],
+      "name": "Revision"
+    },
+    {
+      "id": "maths19",
+      "image": "maths19.png",
+      "color": "#B8D855",
+      "lessons": [
+        {
+          "id": "maths1900",
+          "image": "maths1900.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation, and basic sequencing of numbers. The methodology involved is in simple puzzle format. Numbers are arranged in ascending/descending order. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "Number Order 1"
+        },
+        {
+          "id": "maths1901",
+          "image": "maths1901.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation, and basic sequencing of numbers. The methodology involved is in simple puzzle format. Numbers are arranged in ascending/descending order. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "Number Order 2"
+        },
+        {
+          "id": "maths1902",
+          "image": "maths1902.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation, and basic sequencing of numbers. The methodology involved is in simple puzzle format. Numbers are arranged in ascending/descending order. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "Number Order 3"
+        },
+        {
+          "id": "maths1903",
+          "image": "maths1903.png",
+          "color": "#B8D855",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation, and basic sequencing of numbers. The methodology involved is in simple puzzle format. Numbers are arranged in ascending/descending order. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "Number Order 4"
+        },
+        {
+          "id": "challenge53",
+          "image": "drum_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge RNO 1"
+        },
+        {
+          "id": "maths1904",
+          "image": "maths1904.png",
+          "color": "#B8D855",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation, and basic sequencing of numbers. The methodology involved is in simple puzzle format. Numbers are arranged in ascending/descending order. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "Number Order 5"
+        },
+        {
+          "id": "maths1905",
+          "image": "maths1905.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation, and basic sequencing of numbers. The methodology involved is in simple puzzle format. Numbers are arranged in ascending/descending order. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "Number Order 6"
+        },
+        {
+          "id": "maths1906",
+          "image": "maths1906.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation, and basic sequencing of numbers. The methodology involved is in simple puzzle format. Numbers are arranged in ascending/descending order. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "Number Order 7"
+        },
+        {
+          "id": "maths1907",
+          "image": "maths1907.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson is a numeric game through which children learn the ordering, seriation, and basic sequencing of numbers. The methodology involved is in simple puzzle format. Numbers are arranged in ascending/descending order. Few numbers are removed to create vacant spots in the sequence which is to be filled by the child to complete the puzzle. With practice, they gain the ability not only to identify the order of cardinal numbers placement but also grasp the sequence in their pattern.",
+          "name": "Number Order 8"
+        },
+        {
+          "id": "challenge54",
+          "image": "duck.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge RNO 2"
+        }
+      ],
+      "name": "Revision Number Order"
+    },
+    {
+      "id": "maths20",
+      "image": "maths20.png",
+      "color": "#72DDD3",
+      "lessons": [
+        {
+          "id": "maths2000",
+          "image": "maths2000.png",
+          "color": "#FC8E83",
+          "outcome": "Teaches times table of '1'.The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of  1"
+        },
+        {
+          "id": "maths2001",
+          "image": "maths2001.png",
+          "color": "#F98AC9",
+          "outcome": "Students who are good at addition, sometimes struggle with Multiplication because they do not understand that multiplication is nothing but repeated addition. With visual aids and gamified activities, Chimple teaches this concept by showing multiplication by adding equal groups of the same numbers together.",
+          "name": "Count and Multiply 2"
+        },
+        {
+          "id": "maths2002",
+          "image": "maths2002.png",
+          "color": "#D48FF9",
+          "outcome": "Teaches times table of '2'.The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 2 "
+        },
+        {
+          "id": "maths2003",
+          "image": "maths2003.png",
+          "color": "#B8D855",
+          "outcome": "By working on the exercises in this lesson, children notice the numerical patterns of skip counting by 2's.  The more patterns they see in numbers the more generalizations they can make about how numbers work. The skill is highly needed for them for working out math problems and when they move to higher computations.",
+          "name": "Skip by 2's "
+        },
+        {
+          "id": "challenge55",
+          "image": "eraser_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Table 1-2"
+        },
+        {
+          "id": "maths2004",
+          "image": "maths2004.png",
+          "color": "#B8D855",
+          "outcome": "Familiarizes students with the Time Table of 3. Students who are good at addition, sometimes struggle with Multiplication because they do not understand that multiplication is nothing but repeated addition. With visual aids and gamified activities, Chimple teaches this concept by showing multiplication by adding equal groups of the same numbers together.",
+          "name": "Count and Multiply 3"
+        },
+        {
+          "id": "maths2005",
+          "image": "maths2005.png",
+          "color": "#D48FF9",
+          "outcome": "Teaches times table of '3'.The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 3"
+        },
+        {
+          "id": "maths2006",
+          "image": "maths2006.png",
+          "color": "#F98AC9",
+          "outcome": "By working on the exercises in this lesson, children notice the numerical patterns of skip counting by 3's.  The more patterns they see in numbers the more generalizations they can make about how numbers work. The skill is highly needed for them for working out math problems and when they move to higher computations.",
+          "name": "Skip by 3's"
+        },
+        {
+          "id": "challenge56",
+          "image": "fan_rewards.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge Table 3"
+        }
+      ],
+      "name": "Multiplication Beginners"
+    },
+    {
+      "id": "maths21",
+      "image": "maths21.png",
+      "color": "#B8D855",
+      "lessons": [
+        {
+          "id": "maths2100",
+          "image": "maths2100.png",
+          "color": "#FC8E83",
+          "outcome": "Children learn to regroup when the numbers added are more than 9. The numbers are presented in the boxes of tens. ",
+          "name": "Regroup and Add"
+        },
+        {
+          "id": "maths2101",
+          "image": "maths2101.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson introduces an independent column for working out the sums to the student. The child uses a whiteboard provided to solve the problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Vertical  Addition Beginners"
+        },
+        {
+          "id": "maths2102",
+          "image": "maths2102.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces an independent column for working out the sums to the student. The child uses a whiteboard provided to solve the problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Vertical  Addition Basic"
+        },
+        {
+          "id": "maths2103",
+          "image": "maths2103.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces an independent column for working out the sums to the student. The child uses a whiteboard provided to solve the addition problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Vertical  Addition Medial"
+        },
+        {
+          "id": "challenge57",
+          "image": "feather_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge AE 1"
+        },
+        {
+          "id": "maths2104",
+          "image": "maths2104.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces an independent column for working out the sums to the student. The child uses a whiteboard provided to solve the addition problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Add 2 Digit Numbers"
+        },
+        {
+          "id": "maths2105",
+          "image": "maths2105.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces an independent column for working out the sums to the student. The child uses a whiteboard provided to solve the addition problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Add 1-20"
+        },
+        {
+          "id": "maths2106",
+          "image": "maths2106.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson introduces an independent column for working out the sums to the student. The child uses a whiteboard provided to solve the addition problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Add 10-20"
+        },
+        {
+          "id": "maths2107",
+          "image": "maths2107.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of additions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Addition Mastery"
+        },
+        {
+          "id": "challenge58",
+          "image": "feedingbottle_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge AE 2"
+        }
+      ],
+      "name": "Addition Elementary"
+    },
+    {
+      "id": "maths22",
+      "image": "maths22.png",
+      "color": "#D48FF9",
+      "lessons": [
+        {
+          "id": "maths2200",
+          "image": "maths2200.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Practice 1"
+        },
+        {
+          "id": "maths2201",
+          "image": "maths2201.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Practice 2"
+        },
+        {
+          "id": "maths2202",
+          "image": "maths2202.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Practice 3"
+        },
+        {
+          "id": "maths2203",
+          "image": "maths2203.png",
+          "color": "#B8D855",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Practice 4"
+        },
+        {
+          "id": "challenge59",
+          "image": "fire_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PA 1"
+        },
+        {
+          "id": "maths2204",
+          "image": "maths2204.png",
+          "color": "#B8D855",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Practice 5"
+        },
+        {
+          "id": "maths2205",
+          "image": "maths2205.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Practice 6"
+        },
+        {
+          "id": "maths2206",
+          "image": "maths2206.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Practice 7"
+        },
+        {
+          "id": "maths2207",
+          "image": "maths2207.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Practice 8"
+        },
+        {
+          "id": "challenge60",
+          "image": "flower_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PA 2"
+        },
+        {
+          "id": "maths2208",
+          "image": "maths2208.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 1"
+        },
+        {
+          "id": "maths2209",
+          "image": "maths2209.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 2"
+        },
+        {
+          "id": "maths2210",
+          "image": "maths2210.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 3"
+        },
+        {
+          "id": "maths2211",
+          "image": "maths2211.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 4"
+        },
+        {
+          "id": "challenge61",
+          "image": "flute_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PA 3"
+        },
+        {
+          "id": "maths2212",
+          "image": "maths2212.png",
+          "color": "#B8D855",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 5"
+        },
+        {
+          "id": "maths2213",
+          "image": "maths2213.png",
+          "color": "#72DDD3",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 6"
+        },
+        {
+          "id": "maths2214",
+          "image": "maths2214.png",
+          "color": "#B8D855",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 7"
+        },
+        {
+          "id": "maths2215",
+          "image": "maths2215.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Quick  Addition 8"
+        },
+        {
+          "id": "challenge62",
+          "image": "fork_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PA 4"
+        },
+        {
+          "id": "maths2216",
+          "image": "maths2216.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Add and Learn"
+        },
+        {
+          "id": "maths2217",
+          "image": "maths2217.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "More Additions"
+        },
+        {
+          "id": "maths2218",
+          "image": "maths2218.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of addition for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Revisions"
+        },
+        {
+          "id": "challenge63",
+          "image": "frock_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PA 5"
+        }
+      ],
+      "name": "Practice Addition"
+    },
+    {
+      "id": "maths23",
+      "image": "maths23.png",
+      "color": "#F98AC9",
+      "lessons": [
+        {
+          "id": "maths2300",
+          "image": "maths2300.png",
+          "color": "#FC8E83",
+          "outcome": "In this lesson, the child will count and subtract numbers. A part of the equation is already given. The jars have fruits in specific numbers placed below. The child drags the jars to complete the equation counting objects inside the jars. Children learn to use numbers, including written numerals, to represent quantities and to solve a quantitative problems. ",
+          "name": "Count and Subtract"
+        },
+        {
+          "id": "maths2301",
+          "image": "maths2301.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the subtraction sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator 1"
+        },
+        {
+          "id": "maths2302",
+          "color": "#D48FF9",
+          "image": "maths2302.png",
+          "outcome": "The lesson introduces an independent whiteboard for working out the subtraction sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator 2"
+        },
+        {
+          "id": "maths2303",
+          "image": "maths2303.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces an independent whiteboard for working out the subtraction sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator 3"
+        },
+        {
+          "id": "challenge64",
+          "image": "gift_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SE 1"
+        },
+        {
+          "id": "maths2304",
+          "image": "maths2304.png",
+          "color": "#B8D855",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of subtraction for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Subtract"
+        },
+        {
+          "id": "maths2305",
+          "image": "maths2305.png",
+          "color": "#72DDD3",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of subtraction for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Subtract 1"
+        },
+        {
+          "id": "maths2306",
+          "image": "maths2306.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of subtraction for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Speed Subtraction 1-18"
+        },
+        {
+          "id": "maths2307",
+          "image": "maths2307.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of subtraction for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Subtract 2"
+        },
+        {
+          "id": "challenge65",
+          "image": "glove_rewards.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SE 2"
+        },
+        {
+          "id": "maths2308",
+          "image": "maths2308.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of subtraction for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Subtract 3"
+        },
+        {
+          "id": "maths2309",
+          "image": "maths2309.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of subtraction for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Subtract 4"
+        },
+        {
+          "id": "maths2310",
+          "image": "maths2310.png",
+          "color": "#B8D855",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of subtraction for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Subtract 5"
+        },
+        {
+          "id": "maths2311",
+          "image": "maths2311.png",
+          "color": "#72DDD3",
+          "outcome": "This lesson offers equations in the form of short quiz-like questions of subtraction for evaluation and practice for students besides helping to assess their comprehension of the math concept. No counting is given. ",
+          "name": "Subtract 6"
+        },
+        {
+          "id": "challenge66",
+          "image": "glue_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SE 3 "
+        }
+      ],
+      "name": "Subtraction Elementary"
+    },
+    {
+      "id": "maths24",
+      "image": "maths24.png",
+      "color": "#FC8E83",
+      "lessons": [
+        {
+          "id": "maths2400",
+          "image": "maths2400.png",
+          "color": "#FC8E83",
+          "outcome": "Place value of numbers 100-300. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 100-300"
+        },
+        {
+          "id": "maths2401",
+          "image": "maths2401.png",
+          "color": "#F98AC9",
+          "outcome": "Place value of numbers 200-300. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 200-300"
+        },
+        {
+          "id": "maths2402",
+          "image": "maths2402.png",
+          "color": "#D48FF9",
+          "outcome": "Place value of numbers 300-500. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 300-500"
+        },
+        {
+          "id": "maths2403",
+          "image": "maths2403.png",
+          "color": "#B8D855",
+          "outcome": "Place value of numbers 300-600. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": " 300-600"
+        },
+        {
+          "id": "challenge67",
+          "image": "goggles_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PV 4"
+        },
+        {
+          "id": "maths2404",
+          "image": "maths2404.png",
+          "color": "#B8D855",
+          "outcome": "Place value of numbers 300-600. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "200-700"
+        },
+        {
+          "id": "maths2405",
+          "image": "maths2405.png",
+          "color": "#D48FF9",
+          "outcome": "Place value of numbers 500-700. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "500-700"
+        },
+        {
+          "id": "maths2406",
+          "image": "maths2406.png",
+          "color": "#F98AC9",
+          "outcome": "Place value of numbers 500 - 900. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "500 - 900"
+        },
+        {
+          "id": "challenge68",
+          "image": "golbe_rewards.png",
+          "color": "#FC8E83",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PV 5"
+        },
+        {
+          "id": "maths2407",
+          "image": "maths2407.png",
+          "color": "#F98AC9",
+          "outcome": "Place value of numbers 700-900. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "700-900"
+        },
+        {
+          "id": "maths2408",
+          "image": "maths2408.png",
+          "color": "#D48FF9",
+          "outcome": "Place value of numbers 800-999. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "800-999"
+        },
+        {
+          "id": "maths2409",
+          "image": "maths2409.png",
+          "color": "#B8D855",
+          "outcome": "Place value of numbers 100-999. Children need to understand the place value of numbers in the Base 10 system. In this lesson, students can use the virtual blocks, rods, or flats to represent the numbers they see on the board and physically add or remove pieces to get the desired number. This fortifies their skill in the addition and subtraction of whole numbers. They also explore numbers in their increasing and decreasing orders.",
+          "name": "100-999"
+        },
+        {
+          "id": "challenge69",
+          "image": "gold_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge PV 6"
+        }
+      ],
+      "name": "Place Value 2"
+    },
+    {
+      "id": "maths25",
+      "image": "maths25.png",
+      "color": "#F98AC9",
+      "lessons": [
+        {
+          "id": "maths2500",
+          "image": "maths2500.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson teaches counting the objects shown above the arithmetic operation to either add or subtract the numbers. Since children typically see a quantity as an aggregate of single units, they need to count when finding the total or subtracting a quantity from an aggregate. The interactive lesson helps the child by giving visual clues and objects to count in order to find the correct answer. Counting helps the child to know that the larger number is made of parts of smaller numbers.",
+          "name": "Add & Subtract - 1"
+        },
+        {
+          "id": "maths2501",
+          "image": "maths2501.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson teaches counting the objects shown above the arithmetic operation to either add or subtract the numbers. Since children typically see a quantity as an aggregate of single units, they need to count when finding the total or subtracting a quantity from an aggregate. The interactive lesson helps the child by giving visual clues and objects to count in order to find the correct answer. Counting helps the child to know that the larger number is made of parts of smaller numbers.",
+          "name": "Add & Subtract - 2"
+        },
+        {
+          "id": "maths2502",
+          "image": "maths2502.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson teaches counting the objects shown above the arithmetic operation to either add or subtract the numbers. Since children typically see a quantity as an aggregate of single units, they need to count when finding the total or subtracting a quantity from an aggregate. The interactive lesson helps the child by giving visual clues and objects to count in order to find the correct answer. Counting helps the child to know that the larger number is made of parts of smaller numbers.",
+          "name": "Add & Subtract - 3"
+        },
+        {
+          "id": "maths2503",
+          "image": "maths2503.png",
+          "color": "#B8D855",
+          "outcome": "The lesson teaches counting the objects shown above the arithmetic operation to either add or subtract the numbers. Since children typically see a quantity as an aggregate of single units, they need to count when finding the total or subtracting a quantity from an aggregate. The interactive lesson helps the child by giving visual clues and objects to count in order to find the correct answer. Counting helps the child to know that the larger number is made of parts of smaller numbers.",
+          "name": "Add & Subtract - 4"
+        },
+        {
+          "id": "challenge70",
+          "image": "grapes_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MO 1"
+        },
+        {
+          "id": "maths2504",
+          "image": "maths2504.png",
+          "color": "#B8D855",
+          "outcome": "The child performs basic addition of 3 different numbers either mentally or if challenged by counting the objects presented in the boxes which hold the quantities in ten and dragging the right answer to its respective place.",
+          "name": "Add 3 Digits - 1"
+        },
+        {
+          "id": "maths2505",
+          "image": "maths2505.png",
+          "color": "#D48FF9",
+          "outcome": "The child performs basic addition of 3 different numbers either mentally or if challenged by counting the objects presented in the boxes which hold the quantities in ten and dragging the right answer to its respective place.",
+          "name": "Add 3 Digits - 2 "
+        },
+        {
+          "id": "maths2506",
+          "image": "maths2506.png",
+          "color": "#F98AC9",
+          "outcome": "In this lesson, a part of the equation is already given. The jars have fruits in specific numbers placed below. The child drags the jars to complete the equation counting objects inside the jars. Children learn to use numbers, including written numerals, to represent quantities and to solve a quantitative problems. ",
+          "name": "Add & Subtract - 5"
+        },
+        {
+          "id": "maths2507",
+          "image": "maths2507.png",
+          "color": "#FC8E83",
+          "outcome": "In this lesson, a part of the equation is already given. The jars have fruits in specific numbers placed below. The child drags the jars to complete the equation counting objects inside the jars. Children learn to use numbers, including written numerals, to represent quantities and to solve a quantitative problems. ",
+          "name": "Add & Subtract - 6"
+        },
+        {
+          "id": "challenge71",
+          "image": "grass_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MO 2"
+        },
+        {
+          "id": "maths2508",
+          "image": "maths2508.png",
+          "color": "#D48FF9",
+          "outcome": "In this lesson, a part of the equation is already given. The jars have fruits in specific numbers placed below. The child drags the jars to complete the equation counting objects inside the jars. Children learn to use numbers, including written numerals, to represent quantities and to solve a quantitative problems. ",
+          "name": "Add & Subtract - 7"
+        },
+        {
+          "id": "maths2509",
+          "image": "maths2509.png",
+          "color": "#B8D855",
+          "outcome": "In this lesson, a part of the equation is already given. The jars have fruits in specific numbers placed below. The child drags the jars to complete the equation counting objects inside the jars. Children learn to use numbers, including written numerals, to represent quantities and to solve a quantitative problems. ",
+          "name": "Add & Subtract - 8"
+        },
+        {
+          "id": "maths2510",
+          "image": "maths2510.png",
+          "color": "#72DDD3",
+          "outcome": "Teaches times table of '3'.The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 3"
+        },
+        {
+          "id": "maths2511",
+          "image": "maths2511.png",
+          "color": "#B8D855",
+          "outcome": "The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 4"
+        },
+        {
+          "id": "challenge72",
+          "image": "guitar_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MO 3"
+        }
+      ],
+      "name": "Math Operations"
+    },
+    {
+      "id": "maths26",
+      "image": "maths26.png",
+      "color": "#D48FF9",
+      "lessons": [
+        {
+          "id": "maths2600",
+          "image": "maths2600.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Double Digits - 1"
+        },
+        {
+          "id": "maths2601",
+          "image": "maths2601.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Double Digits - 2"
+        },
+        {
+          "id": "maths2602",
+          "image": "maths2602.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Double Digits - 3"
+        },
+        {
+          "id": "maths2603",
+          "image": "maths2603.png",
+          "color": "#B8D855",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Double Digits - 4"
+        },
+        {
+          "id": "challenge73",
+          "image": "hammer_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge AA 1"
+        },
+        {
+          "id": "maths2604",
+          "image": "maths2604.png",
+          "color": "#B8D855",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Regroup & Add - 1"
+        },
+        {
+          "id": "maths2605",
+          "image": "maths2605.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Regroup & Add - 2"
+        },
+        {
+          "id": "maths2606",
+          "image": "maths2606.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Regroup & Add - 3"
+        },
+        {
+          "id": "maths2607",
+          "image": "maths2607.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Regroup & Add - 4"
+        },
+        {
+          "id": "challenge74",
+          "image": "hanger_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge AA 2"
+        },
+        {
+          "id": "maths2608",
+          "image": "maths2608.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of addition without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the lesson will prepare the child to score well in this specific section of assessments.",
+          "name": "Regroup & Add - 5"
+        },
+        {
+          "id": "maths2609",
+          "image": "maths2609.png",
+          "color": "#B8D855",
+          "outcome": "The lesson teaches counting the objects shown in a jars below the arithmetic operation to add the numbers. Since children typically see a quantity as an aggregate of single units, they need to count when finding the total or subtracting a quantity from an aggregate. The interactive lesson helps the child by giving visual clues and objects to count in order to find the correct answer. Counting helps the child to know that the larger number is made of parts of smaller numbers.",
+          "name": "Count & Add "
+        },
+        {
+          "id": "maths2610",
+          "image": "maths2610.png",
+          "color": "#72DDD3",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator - 1"
+        },
+        {
+          "id": "maths2611",
+          "image": "maths2611.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator - 2"
+        },
+        {
+          "id": "challenge75",
+          "image": "harp_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge AA3"
+        },
+        {
+          "id": "maths2612",
+          "image": "maths2612.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator - 3"
+        },
+        {
+          "id": "maths2613",
+          "image": "maths2613.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Add 1-50"
+        },
+        {
+          "id": "maths2614",
+          "image": "maths2614.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Calculator - 4"
+        },
+        {
+          "id": "maths2615",
+          "image": "maths2615.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Add 10-100"
+        },
+        {
+          "id": "challenge76",
+          "image": "hat_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge AA4"
+        },
+        {
+          "id": "maths2616",
+          "image": "maths2616.png",
+          "color": "#72DDD3",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Add 11-100"
+        },
+        {
+          "id": "maths2617",
+          "image": "maths2617.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "More Additions"
+        },
+        {
+          "id": "maths2618",
+          "image": "maths2618.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Practice Addition"
+        },
+        {
+          "id": "challenge77",
+          "image": "heart_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge AA 5"
+        },
+        {
+          "id": "maths2619",
+          "image": "maths2619.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson introduces an independent whiteboard for working out the addition sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Add 1-99"
+        },
+        {
+          "id": "maths2620",
+          "image": "maths2620.png",
+          "color": "#F98AC9",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of addition and how it permeates into all aspects of our life. The lesson has statement sums based on addition. ",
+          "name": "Statement Sums 1"
+        },
+        {
+          "id": "maths2621",
+          "image": "maths2621.png",
+          "color": "#D48FF9",
+          "outcome": "The student will learn the practical use of addition through statement sums in this lesson. ",
+          "name": "Compare and Add"
+        },
+        {
+          "id": "challenge78",
+          "image": "helicopter_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge AA 6"
+        }
+      ],
+      "name": "Addition Advanced"
+    },
+    {
+      "id": "maths27",
+      "image": "maths27.png",
+      "color": "#B8D855",
+      "lessons": [
+        {
+          "id": "maths2700",
+          "image": "maths2700.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Subtract - 1"
+        },
+        {
+          "id": "maths2701",
+          "image": "maths2701.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Subtract - 2"
+        },
+        {
+          "id": "maths2702",
+          "image": "maths2702.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Subtract - 3"
+        },
+        {
+          "id": "maths2703",
+          "image": "maths2703.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Subtract - 4"
+        },
+        {
+          "id": "challenge79",
+          "image": "helmet_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SA 1"
+        },
+        {
+          "id": "maths2704",
+          "image": "maths2704.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Subtract - 5"
+        },
+        {
+          "id": "maths2705",
+          "image": "maths2705.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Subtract - 6"
+        },
+        {
+          "id": "maths2706",
+          "image": "maths2706.png",
+          "color": "#F98AC9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Subtract - 7"
+        },
+        {
+          "id": "maths2707",
+          "image": "maths2707.png",
+          "color": "#FC8E83",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Subtract - 8"
+        },
+        {
+          "id": "challenge80",
+          "image": "honeycomb_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SA 2"
+        },
+        {
+          "id": "maths2708",
+          "image": "maths2708.png",
+          "color": "#D48FF9",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Subtract - 9"
+        },
+        {
+          "id": "maths2709",
+          "image": "maths2709.png",
+          "color": "#B8D855",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Practice"
+        },
+        {
+          "id": "maths2710",
+          "image": "maths2710.png",
+          "color": "#72DDD3",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Subtract  10-70"
+        },
+        {
+          "id": "maths2711",
+          "image": "maths2711.png",
+          "color": "#B8D855",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Subtract 20-90"
+        },
+        {
+          "id": "challenge81",
+          "image": "horn_rewards.png",
+          "color": "#D48FF9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SA 3"
+        },
+        {
+          "id": "maths2712",
+          "image": "maths2712.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Practice 1"
+        },
+        {
+          "id": "maths2713",
+          "image": "maths2713.png",
+          "color": "#FC8E83",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Practice 2"
+        },
+        {
+          "id": "maths2714",
+          "image": "maths2714.png",
+          "color": "#F98AC9",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Practice 3"
+        },
+        {
+          "id": "maths2715",
+          "image": "maths2715.png",
+          "color": "#D48FF9",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "Practice 4"
+        },
+        {
+          "id": "challenge82",
+          "image": "hut_rewards.png",
+          "color": "#B8D855",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SA 4"
+        },
+        {
+          "id": "maths2716",
+          "image": "maths2716.png",
+          "color": "#72DDD3",
+          "outcome": "This lesson solely depends on the skills of the child in solving problems of subtractions without giving help through scaffolding. The only cue the child gets is through the multiple-choice answers and reaction of the Chimple friend. Since the question papers dedicate at least 10% of marks to multiple-choice questions which require quick calculations; practice with the game will prepare the child to score well in this specific section of assessments.",
+          "name": "More Sums"
+        },
+        {
+          "id": "maths2717",
+          "image": "maths2717.png",
+          "color": "#B8D855",
+          "outcome": "The lesson introduces an independent whiteboard for working out the sums to the student. The child uses a whiteboard provided to solve the subtraction problems and enters the answer on the number-board which is in the form of a traditional calculator.",
+          "name": "Exercise"
+        },
+        {
+          "id": "maths2718",
+          "image": "maths2718.png",
+          "color": "#D48FF9",
+          "outcome": "A whiteboard is available for interactive lessons to help students understand the basics of subtraction thoroughly. This lesson offers equations in the form of short quiz-like questions for evaluation and practice for students besides helping to assess their comprehension of the math concept.",
+          "name": "Exercise 1"
+        },
+        {
+          "id": "challenge83",
+          "image": "icecream_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SA 5"
+        },
+        {
+          "id": "maths2719",
+          "image": "maths2719.png",
+          "color": "#FC8E83",
+          "outcome": "A table presented uses interactive lessons to help students understand the basics of subtraction thoroughly. This lesson offers equations in the form of short quiz-like questions for evaluation and practice for students besides helping to assess their comprehension of the math concept.",
+          "name": "Exercise 2"
+        },
+        {
+          "id": "maths2720",
+          "image": "maths2720.png",
+          "color": "#F98AC9",
+          "outcome": "Statements sums in this lesson help the child to compare and subtract numbers. It will require the application of subtraction concepts the child has acquired through previous lessons. ",
+          "name": "Statement Sums 1"
+        },
+        {
+          "id": "maths2721",
+          "image": "maths2721.png",
+          "color": "#D48FF9",
+          "outcome": "Statements sums in this lesson help the child to compare and subtract numbers. It will require the application of subtraction concepts the child has acquired through previous lessons. ",
+          "name": "Comparison"
+        },
+        {
+          "id": "challenge84",
+          "image": "icecube_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge SA 6"
+        }
+      ],
+      "name": "Subtraction Advanced"
+    },
+    {
+      "id": "maths28",
+      "image": "maths28.png",
+      "color": "#72DDD3",
+      "lessons": [
+        {
+          "id": "maths2800",
+          "image": "maths2800.png",
+          "color": "#FC8E83",
+          "outcome": "The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Tables 1-10"
+        },
+        {
+          "id": "maths2801",
+          "image": "maths2801.png",
+          "color": "#F98AC9",
+          "outcome": "The child has to answer the quiz-like question without any visual clue. Evaluates the memorization of Times Table and mental arithmetic skills of the student. ",
+          "name": "Fast Multiplication 3-10"
+        },
+        {
+          "id": "maths2802",
+          "image": "maths2802.png",
+          "color": "#D48FF9",
+          "outcome": "The child has to answer the quiz-like question without any visual clue. Evaluates the memorization of Times Table and mental arithmetic skills of the student. ",
+          "name": "Fast Multiplication 3-81"
+        },
+        {
+          "id": "maths2803",
+          "image": "maths2803.png",
+          "color": "#B8D855",
+          "outcome": "Teaches times table of '5'. The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 5"
+        },
+        {
+          "id": "challenge85",
+          "image": "icicle_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MB 1"
+        },
+        {
+          "id": "maths2804",
+          "image": "maths2804.png",
+          "color": "#B8D855",
+          "outcome": "The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 6"
+        },
+        {
+          "id": "maths2805",
+          "image": "maths2805.png",
+          "color": "#D48FF9",
+          "outcome": "The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 7"
+        },
+        {
+          "id": "maths2806",
+          "image": "maths2806.png",
+          "color": "#F98AC9",
+          "outcome": "The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 8"
+        },
+        {
+          "id": "maths2807",
+          "image": "maths2807.png",
+          "color": "#FC8E83",
+          "outcome": "The interactive lesson helps the child to fully understand multiplication as repeated addition of the same number, besides helping him/her to gain fluency in working with problems involving multiplication. By arranging the beads to create the times table, the child will gain a conceptual understanding of multiplication, knowing ‘why’ and ‘how’ the times table functions, rather than knowing just the answer for a multiplication equation.",
+          "name": "Table of 9"
+        },
+        {
+          "id": "challenge86",
+          "image": "igloo_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge MB 2"
+        }
+      ],
+      "name": "Multiplication Basics"
+    },
+    {
+      "id": "maths29",
+      "image": "maths29.png",
+      "color": "#B8D855",
+      "lessons": [
+        {
+          "id": "maths2900",
+          "image": "maths2900.png",
+          "color": "#FC8E83",
+          "outcome": "Students who are good at addition, sometimes struggle with Multiplication because they do not understand that multiplication is nothing but repeated addition. With visual aids and gamified activities, Chimple teaches this concept by showing multiplication by adding equal groups of the same numbers together.",
+          "name": "Multiply 2-9"
+        },
+        {
+          "id": "maths2901",
+          "image": "maths2901.png",
+          "color": "#F98AC9",
+          "outcome": "Students who are good at addition, sometimes struggle with Multiplication because they do not understand that multiplication is nothing but repeated addition. With visual aids and gamified activities, Chimple teaches this concept by showing multiplication by adding equal groups of the same numbers together.",
+          "name": "Multiply 3-8"
+        },
+        {
+          "id": "maths2902",
+          "image": "maths2902.png",
+          "color": "#D48FF9",
+          "outcome": "Students who are good at addition, sometimes struggle with Multiplication because they do not understand that multiplication is nothing but repeated addition. With visual aids and gamified activities, Chimple teaches this concept by showing multiplication by adding equal groups of the same numbers together.",
+          "name": "Find the  product 2-9"
+        },
+        {
+          "id": "maths2903",
+          "image": "maths2903.png",
+          "color": "#B8D855",
+          "outcome": "Students who are good at addition, sometimes struggle with Multiplication because they do not understand that multiplication is nothing but repeated addition. With visual aids and gamified activities, Chimple teaches this concept by showing multiplication by adding equal groups of the same numbers together.",
+          "name": "Find the  product 2-8"
+        },
+        {
+          "id": "challenge87",
+          "image": "ink_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge ME"
+        }
+      ],
+      "name": "Multiplication- Elementary"
+    },
+    {
+      "id": "maths30",
+      "image": "maths30.png",
+      "color": "#72DDD3",
+      "lessons": [
+        {
+          "id": "maths3000",
+          "image": "maths3000.png",
+          "color": "#FC8E83",
+          "outcome": "It is through the words problems that children will learn the application of the learned addition skill and how it permeates into all aspects of our life. The lesson has statement sums based on addition. ",
+          "name": "Addition 1"
+        },
+        {
+          "id": "maths3001",
+          "image": "maths3001.png",
+          "color": "#F98AC9",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of subtraction and how it permeates into all aspects of our life. The lesson has statement sums based on subtraction. ",
+          "name": "Subtraction 1"
+        },
+        {
+          "id": "maths3002",
+          "image": "maths3002.png",
+          "color": "#D48FF9",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of math operations like addition and subtraction. They learn its application and how it permeates into all aspects of our life. The lesson has statement sums based on addition/subtraction. ",
+          "name": "Addition 2"
+        },
+        {
+          "id": "maths3003",
+          "image": "maths3003.png",
+          "color": "#B8D855",
+          "outcome": "It is through the word problems that children will learn the application of the learned skill of math operations and how it permeates into all aspects of our life. The lesson has statement sums based on addition/subtraction. ",
+          "name": "Compare and Add"
+        },
+        {
+          "id": "challenge88",
+          "image": "iron_rewards.png",
+          "color": "#72DDD3",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge WP 1"
+        },
+        {
+          "id": "maths3004",
+          "image": "maths3004.png",
+          "color": "#B8D855",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of subtraction and how it permeates into all aspects of our life. The lesson has statement sums based on subtraction. ",
+          "name": "Subtraction 2"
+        },
+        {
+          "id": "maths3005",
+          "image": "maths3005.png",
+          "color": "#D48FF9",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of math operations and how it permeates into all aspects of our life. The lesson has statement sums based on addition/subtraction. ",
+          "name": "Comparison by Subtraction"
+        },
+        {
+          "id": "maths3006",
+          "image": "maths3006.png",
+          "color": "#F98AC9",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of subtraction and how it permeates into all aspects of our life. The lesson has statement sums based on subtraction. ",
+          "name": "Subtract"
+        },
+        {
+          "id": "maths3007",
+          "image": "maths3007.png",
+          "color": "#FC8E83",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of math operations like addition and subtraction. They learn its application and how it permeates into all aspects of our life. The lesson has statement sums based on addition/subtraction. ",
+          "name": "How Many?"
+        },
+        {
+          "id": "challenge89",
+          "image": "jam_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge WP2"
+        },
+        {
+          "id": "maths3008",
+          "image": "maths3008.png",
+          "color": "#D48FF9",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of subtraction and how it permeates into all aspects of our life. The lesson has statement sums based on subtraction. ",
+          "name": "Subtraction Challenge"
+        },
+        {
+          "id": "maths3009",
+          "image": "maths3009.png",
+          "color": "#B8D855",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of subtraction and how it permeates into all aspects of our life. The lesson has statement sums based on subtraction. ",
+          "name": "Subtraction 3"
+        },
+        {
+          "id": "maths3010",
+          "image": "maths3010.png",
+          "color": "#B8D855",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of multiplication and how it permeates into all aspects of our life. The lesson has statement sums based on multiplication. ",
+          "name": "Multiplication 1"
+        },
+        {
+          "id": "maths3011",
+          "image": "maths3011.png",
+          "color": "#D48FF9",
+          "outcome": "It is through the words problems that children will learn the application of the learned skill of multiplication and how it permeates into all aspects of our life. The lesson has statement sums based on multiplication. ",
+          "name": "Multiplication 2"
+        },
+        {
+          "id": "challenge90",
+          "image": "jeep_rewards.png",
+          "color": "#F98AC9",
+          "type": "exam",
+          "outcome": "Challenges are in-built test/exams for children. Students will have to pass the challenge positioned after ever 3-4 lessons with a good score to unlock further lessons.",
+          "name": "Challenge WP 3"
+        }
+      ],
+      "name": "Word Problems"
+    }
+  ],
+  "id": "maths",
+  "lang": "en",
+  "name": "Maths",
+  "type": "maths",
+  "levels": ["maths00", "maths00", "maths00", "maths00"]
+}
