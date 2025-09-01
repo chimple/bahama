@@ -1,0 +1,494 @@
+{
+  "id": "puzzle",
+  "name": "Digital Skills",
+  "lang": "en",
+  "type": "literacy",
+  "chapters": [
+    {
+      "id": "puzzle00",
+      "image": "puzzle00.png",
+      "lessons": [
+        {
+          "id": "puzzle0000",
+          "image": "puzzle0000.png",
+          "outcome": "Fun activity where the child will draw lines to connect matching similar pairs of objects",
+          "name": "Match Coloured Objects"
+        },
+        {
+          "id": "puzzle0001",
+          "image": "puzzle0001.png",
+          "outcome": "Fun activity where the child will draw lines to connect matching similar pairs of objects",
+          "name": "Match Coloured Objects 2"
+        },
+        {
+          "id": "puzzle0002",
+          "image": "puzzle0002.png",
+          "outcome": "Fun activity where the child will draw lines to connect matching similar pairs of objects",
+          "name": "Match Blue Shadows"
+        },
+        {
+          "id": "puzzle0003",
+          "image": "puzzle0003.png",
+          "outcome": "Match the babies with the animals and the tails with their bodies. ",
+          "name": "Animals and Babies"
+        },
+        {
+          "id": "puzzle0004",
+          "image": "puzzle0004.png",
+          "outcome": "Children learn to identify real life objects with the geometric shape name. For example balloon = oval, wheel = circle, etc. ",
+          "name": "Shapes and Objects"
+        },
+        {
+          "id": "puzzle0005",
+          "image": "puzzle0005.png",
+          "outcome": "Children count and match objects, which enhances the subitizing skills in children.",
+          "name": "Count and Match"
+        },
+        {
+          "id": "puzzle0006",
+          "image": "puzzle0006.png",
+          "outcome": "Children match shapes - triangle, square, pentagon and hexagon. ",
+          "name": "Shapes"
+        },
+        {
+          "id": "puzzle0007",
+          "image": "puzzle0007.png",
+          "outcome": "Fun activity where the child will draw lines to connect matching similar pairs of objects",
+          "name": "Match figures"
+        },
+        {
+          "id": "puzzle0008",
+          "image": "puzzle0008.png",
+          "outcome": "Matching the tally marks to objects and numbers. 1-5",
+          "name": "Count and Pair"
+        },
+        {
+          "id": "puzzle0009",
+          "image": "puzzle0009.png",
+          "outcome": "Children gain skill of subitizing, an ability to instantly recognize the number of objects without actually counting them. Through practice they learn to calculate estimates without actually counting the objects. ",
+          "name": "How Many"
+        },
+        {
+          "id": "puzzle0010",
+          "image": "puzzle0010.png",
+          "outcome": "Children will match the fraction of an object with its whole. This requires high observation, strong deductive and reasoning skills from the child to identify the similarities between two objects.",
+          "name": "Parts and Whole"
+        },
+        {
+          "id": "puzzle0011",
+          "image": "puzzle0011.png",
+          "outcome": "Children will match the fraction of an object with its whole. This requires high observation, strong deductive and reasoning skills from the child to identify the similarities between two objects.",
+          "name": "Parts and whole 2"
+        },
+        {
+          "id": "puzzle0012",
+          "image": "puzzle0012.png",
+          "outcome": "Children learn to identify real life objects with the geometric shape name. For example Ball = sphere, Dice = cube, cylinder = can, etc. ",
+          "name": "Objects and shapes"
+        },
+        {
+          "id": "puzzle0013",
+          "image": "puzzle0013.png",
+          "outcome": "3D shapes are presented to children from different angles. By matching similar objects by identification of their common properties, a child develops skills which can be applied in future to identify congruent or similar triangles, working problems of sets and many more math problems. ",
+          "name": "3D shapes"
+        },
+        {
+          "id": "puzzle0014",
+          "image": "puzzle0014.png",
+          "outcome": "The lesson has increased difficulty for a child by reducing the discrimination factor between two objects to be matched. ",
+          "name": "Stringed objects"
+        },
+        {
+          "id": "puzzle0015",
+          "image": "puzzle0015.png",
+          "outcome": "The lesson has increased difficulty for a child by reducing the discrimination factor between two objects to be matched. ",
+          "name": "Tiny shapes"
+        }
+      ],
+      "name": "Match box"
+    },
+    {
+      "id": "puzzle01",
+      "image": "puzzle01.png",
+      "lessons": [
+        {
+          "id": "puzzle0100",
+          "image": "puzzle0100.png",
+          "outcome": "Children arranges the shapes in a sequence. ",
+          "name": "Shape Sequence"
+        },
+        {
+          "id": "puzzle0101",
+          "image": "puzzle0101.png",
+          "outcome": "The lesson uses patterns to represent identified regularities and to form generalizations in patterns which allows the child to see relationships and develop predictive skills. It is the ability to recognize and create patterns which helps to make predictions based on observations which is an important skill in math. Understanding patterns help prepare children for learning complex number concepts and mathematical operations as they progress in their learning with higher studies.",
+          "name": "Shape Series"
+        },
+        {
+          "id": "puzzle0102",
+          "image": "puzzle0102.png",
+          "outcome": "The lesson uses patterns to represent identified regularities and to form generalizations in patterns which allows the child to see relationships and develop predictive skills. It is the ability to recognize and create patterns which helps to make predictions based on observations which is an important skill in math. Understanding patterns help prepare children for learning complex number concepts and mathematical operations as they progress in their learning with higher studies.",
+          "name": "Shape Pattern"
+        },
+        {
+          "id": "puzzle0103",
+          "image": "puzzle0103.png",
+          "outcome": "The lesson uses patterns to represent identified regularities and to form generalizations in patterns which allows the child to see relationships and develop predictive skills. It is the ability to recognize and create patterns which helps to make predictions based on observations which is an important skill in math. Understanding patterns help prepare children for learning complex number concepts and mathematical operations as they progress in their learning with higher studies.",
+          "name": "Shape Order"
+        },
+        {
+          "id": "puzzle0104",
+          "image": "puzzle0104.png",
+          "outcome": "The lesson uses patterns to represent identified regularities and to form generalizations in patterns which allows the child to see relationships and develop predictive skills. It is the ability to recognize and create patterns which helps to make predictions based on observations which is an important skill in math. Understanding patterns help prepare children for learning complex number concepts and mathematical operations as they progress in their learning with higher studies.",
+          "name": "Succession in Shapes"
+        }
+      ],
+      "name": "Shape Tractor"
+    },
+    {
+      "id": "puzzle02",
+      "image": "puzzle01.png",
+      "lessons": [
+        {
+          "id": "platformer01",
+          "image": "platformer01.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "Jungle"
+        },
+        {
+          "id": "platformer02",
+          "image": "platformer02.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "Beach"
+        },
+        {
+          "id": "platformer03",
+          "image": "platformer03.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "City"
+        },
+        {
+          "id": "platformer04",
+          "image": "platformer04.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "Desert"
+        },
+        {
+          "id": "platformer05",
+          "image": "platformer05.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "Farm"
+        },
+        {
+          "id": "platformer06",
+          "image": "platformer06.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "Garden"
+        },
+        {
+          "id": "platformer07",
+          "image": "platformer07.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "PlayGround"
+        },
+        {
+          "id": "platformer08",
+          "image": "platformer08.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "Sea"
+        },
+        {
+          "id": "platformer09",
+          "image": "platformer09.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "Sky"
+        },
+        {
+          "id": "platformer10",
+          "image": "platformer10.png",
+          "outcome": "This highly entertaining game improves the digital skills of a child significantly. The child learns about timing, precision of dragging to an object in a given time frame when enjoying the game.",
+          "name": "Snow"
+        }
+      ],
+      "name": "Platformer Game"
+    },
+    {
+      "id": "drawshape00",
+      "image": "puzzle03.png",
+      "lessons": [
+        {
+          "id": "drawshape0000",
+          "image": "drawshape0000.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a balloon.",
+          "name": "Balloon"
+        },
+        {
+          "id": "drawshape0001",
+          "image": "drawshape0001.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a box",
+          "name": "Box"
+        },
+        {
+          "id": "drawshape0002",
+          "image": "drawshape0002.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing an egg. ",
+          "name": "Egg"
+        },
+        {
+          "id": "drawshape0003",
+          "image": "drawshape0003.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a flower.",
+          "name": "Flower"
+        },
+        {
+          "id": "drawshape0004",
+          "image": "drawshape0004.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a Heart.",
+          "name": "Heart"
+        },
+        {
+          "id": "drawshape0005",
+          "image": "drawshape0005.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a House.",
+          "name": "House"
+        },
+        {
+          "id": "drawshape0007",
+          "image": "drawshape0007.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a Moon. ",
+          "name": "Moon"
+        },
+        {
+          "id": "drawshape0008",
+          "image": "drawshape0008.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a rectangle. ",
+          "name": "Rectangle"
+        },
+        {
+          "id": "drawshape0009",
+          "image": "drawshape0009.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a star",
+          "name": "Star"
+        },
+        {
+          "id": "drawshape0010",
+          "image": "drawshape00010.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing a Watermelon.",
+          "name": "Watermelon"
+        },
+        {
+          "id": "drawshape0011",
+          "image": "drawshape00011.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing outline of trophy.",
+          "name": "Trophy"
+        },
+        {
+          "id": "drawshape0012",
+          "image": "drawshape00012.png",
+          "outcome": "The lessons are designed to help students hone their pre-writing skills of drawing a  dog.",
+          "name": "Dog"
+        },
+        {
+          "id": "drawshape0013",
+          "image": "drawshape00013.png",
+          "outcome": "The lessons are designed to help students hone their pre-writing skills of drawing Fish",
+          "name": "Fish"
+        },
+        {
+          "id": "drawshape0014",
+          "image": "drawshape00014.png",
+          "outcome": "The lessons are designed to help students hone their pre-writing skills of drawing a bird",
+          "name": "Bird"
+        },
+        {
+          "id": "drawshape0015",
+          "image": "drawshape00015.png",
+          "outcome": "Helps in developing tracing skills. Fun activity of tracing an Arrow.",
+          "name": "Arrow"
+        }
+      ],
+      "name": "Draw Shape"
+    },
+    {
+      "id": "pictureboard00",
+      "image": "puzzle04.png",
+      "lessons": [
+        {
+          "id": "pictureboard0000",
+          "image": "pictureboard0000.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Bird"
+        },
+        {
+          "id": "pictureboard0001",
+          "image": "pictureboard0001.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Lizard"
+        },
+        {
+          "id": "pictureboard0002",
+          "image": "pictureboard0002.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Mouse"
+        },
+        {
+          "id": "pictureboard0003",
+          "image": "pictureboard0003.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Turtle"
+        },
+        {
+          "id": "pictureboard0004",
+          "image": "pictureboard0004.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Ball and Dog"
+        },
+        {
+          "id": "pictureboard0005",
+          "image": "pictureboard0005.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Meerkats"
+        },
+        {
+          "id": "pictureboard0006",
+          "image": "pictureboard0006.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Insects"
+        },
+        {
+          "id": "pictureboard0007",
+          "image": "pictureboard0007.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Cat and Butterfly"
+        },
+        {
+          "id": "pictureboard0008",
+          "image": "pictureboard0008.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Penguin"
+        },
+        {
+          "id": "pictureboard0009",
+          "image": "pictureboard0008.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Rabbit and Flower"
+        },
+        {
+          "id": "pictureboard0010",
+          "image": "pictureboard0010.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Gazelle"
+        },
+        {
+          "id": "pictureboard0011",
+          "image": "pictureboard0011.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Goat"
+        },
+        {
+          "id": "pictureboard0012",
+          "image": "pictureboard0012.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Pig"
+        },
+        {
+          "id": "pictureboard0013",
+          "image": "pictureboard0013.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Zebra"
+        },
+        {
+          "id": "pictureboard0014",
+          "image": "pictureboard0014.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "More Birds"
+        },
+        {
+          "id": "pictureboard0015",
+          "image": "pictureboard0015.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Elephants"
+        },
+        {
+          "id": "pictureboard0016",
+          "image": "pictureboard0016.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Eagle"
+        },
+        {
+          "id": "pictureboard0017",
+          "image": "pictureboard0017.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Hyena"
+        },
+        {
+          "id": "pictureboard0018",
+          "image": "pictureboard0018.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Cow"
+        },
+        {
+          "id": "pictureboard0019",
+          "image": "pictureboard0019.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Squirrel"
+        },
+        {
+          "id": "pictureboard0020",
+          "image": "pictureboard0020.png",
+          "outcome": "This is a simple game which improves drag and drop skills in students. They have to drag the animal puzzle pieces to their respectives places in order to complete the puzzle. As the student arranges pictures in an order the student actively exercises on the observation and remembering skills.",
+          "name": "Monkeys and Crocodile"
+        }
+      ],
+      "name": "Picture Board"
+    },
+    {
+      "id": "matchingcard00",
+      "image": "puzzle05.png",
+      "lessons": [
+        {
+          "id": "matchingcard0001",
+          "image": "matchingcard0001.png",
+          "outcome": "Children will match beginner level cards in this lesson. It will enhance the ability of a child to recognize the differences and similarities between two objects and images based on shape and size besides imparting good eye movement, eye teaming, and eye focusing skills to the child",
+          "name": "Beginner"
+        },
+        {
+          "id": "matchingcard0002",
+          "image": "matchingcard0002.png",
+          "outcome": "Children will match basic level cards in this lesson. It will enhance the ability of a child to recognize the differences and similarities between two objects and images based on shape and size besides imparting good eye movement, eye teaming, and eye focusing skills to the child",
+          "name": "Basic"
+        },
+        {
+          "id": "matchingcard0003",
+          "image": "matchingcard0003.png",
+          "outcome": "Children will match simple to recognize cards in this lesson. It will enhance the ability of a child to recognize the differences and similarities between two objects and images based on shape and size besides imparting good eye movement, eye teaming, and eye focusing skills to the child",
+          "name": "Simple"
+        },
+        {
+          "id": "matchingcard0004",
+          "image": "matchingcard0004.png",
+          "outcome": "Children will match easy level cards in this lesson. It will enhance the ability of a child to recognize the differences and similarities between two objects and images based on shape and size besides imparting good eye movement, eye teaming, and eye focusing skills to the child",
+          "name": "Easy"
+        },
+        {
+          "id": "matchingcard0005",
+          "image": "matchingcard0005.png",
+          "outcome": "Children will match intermediate level cards in this lesson. It will enhance the ability of a child to recognize the differences and similarities between two objects and images based on shape and size besides imparting good eye movement, eye teaming, and eye focusing skills to the child",
+          "name": "Intermediate"
+        },
+        {
+          "id": "matchingcard0006",
+          "image": "matchingcard0006.png",
+          "outcome": "Children will match difficult level cards in this lesson. It will enhance the ability of a child to recognize the differences and similarities between two objects and images based on shape and size besides imparting good eye movement, eye teaming, and eye focusing skills to the child",
+          "name": "Difficult"
+        },
+        {
+          "id": "matchingcard0007",
+          "image": "matchingcard0007.png",
+          "outcome": "Children will match difficult level cards in this lesson. It will enhance the ability of a child to recognize the differences and similarities between two objects and images based on shape and size besides imparting good eye movement, eye teaming, and eye focusing skills to the child",
+          "name": "Hard"
+        }
+      ],
+      "name": "Matching Card"
+    }
+  ]
+}
