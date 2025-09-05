@@ -16,9 +16,9 @@ export const COURSES = [
   "hi-maths",
   "ur",
   "ur-maths",
-  "pt",
+  "mr",
 ];
-export const COURSES_LANG_ID = ["en", "hi", "maths", "kn", "pt"];
+export const COURSES_LANG_ID = ["en", "hi", "maths", "kn", "mr"];
 
 export enum Flow {
   Default,
@@ -51,15 +51,11 @@ export enum Lang {
   ENGLISH = "en",
   HINDI = "hi",
   KANNADA = "kn",
-  PORTUGUESE = "pt",
+  PUZZLE = "puzzle",
+  MARATHI = 'mr',
 }
 
-export const ALL_LANGS = [
-  Lang.ENGLISH,
-  Lang.HINDI,
-  Lang.KANNADA,
-  Lang.PORTUGUESE,
-];
+export const ALL_LANGS = [Lang.ENGLISH, Lang.HINDI, Lang.KANNADA];
 
 export class LangConfig {
   font: string;
@@ -97,12 +93,21 @@ export const LANG_CONFIGS = new Map<Lang, LangConfig>([
     },
   ],
   [
-    Lang.PORTUGUESE,
+    Lang.PUZZLE,
     {
       font: "en-main",
-      displayName: "Portuguese",
-      symbol: "PT",
-      colorCode: "#99EE55",
+      displayName: "Puzzle",
+      symbol: "A",
+      colorCode: "#FFBC00",
+    },
+  ],
+  [
+    Lang.MARATHI,
+    {
+      font: "mr-main",
+      displayName: "Marathi",
+      symbol: "अ",
+      colorCode: "#FFBC00",
     },
   ],
 ]);

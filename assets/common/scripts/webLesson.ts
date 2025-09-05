@@ -14,8 +14,8 @@ export default class WebLesson extends cc.Component {
             Profile.setValue(LANGUAGE, Lang.HINDI);
         else if (lang == Lang.KANNADA)
             Profile.setValue(LANGUAGE, Lang.KANNADA);
-        else if (lang == Lang.PORTUGUESE)
-            Profile.setValue(LANGUAGE, Lang.PORTUGUESE);
+        else if (lang == Lang.MARATHI)
+            Profile.setValue(LANGUAGE, Lang.MARATHI);
         else
             Profile.setValue(LANGUAGE, Lang.ENGLISH);
 
