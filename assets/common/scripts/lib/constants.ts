@@ -354,16 +354,20 @@ export const COUNTRY_CODES: object[] = [
 ];
 
 export const firebaseConfigWeb = {
-    apiKey: "AIzaSyAi92k8nf7IDaviagF86wq164kqpZ_-3PA",
-    authDomain: "bahama-stage.firebaseapp.com",
-    databaseURL: "https://bahama-stage.firebaseio.com",
-    projectId: "bahama-stage",
-    storageBucket: "bahama-stage.appspot.com",
-    messagingSenderId: "105857221433",
-    appId: "1:105857221433:web:424f71c230302a6b70dee8",
-    measurementId: "G-DB6WEMCZ0D"
+    apiKey: "AIzaSyAqNGaNBLDNQ309JPDMbhXcZQyWSWua5UQ",
+    authDomain: "chimple-prod.firebaseapp.com",
+    databaseURL: "https://chimple-prod.firebaseio.com",
+    projectId: "chimple-prod",
+    storageBucket: "chimple-prod.appspot.com",
+    messagingSenderId: "733418845711",
+    appId: "1:733418845711:web:ffc43f8556b8ecaaa0957a",
+    measurementId: "G-1C9JN7P724"
 };
 
+export const currentPartner = {
+    CHIMPLE:'chimple',
+    NIPUN:'nipun'
+}
 
 export interface School {
     firebaseId: string;

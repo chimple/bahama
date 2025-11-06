@@ -397,8 +397,13 @@ export default class LessonController extends cc.Component {
       Queue.getInstance().push(monitorInfo);
     }
 
-    const eventName: string = this.isQuiz ? "quizEnd" : "gameEnd";
+    const eventName: string = "problemEnd";
     const event = {
+      studentId: config.microLinkData.studentid || null,
+      studentName: config.microLinkData.studentname || null,
+      classId: config.microLinkData.classid || null,
+      schoolId: config.microLinkData.schoolid || null,
+
       mlPartnerId: config.lesson.mlPartnerId || null,
       mlClassId: config.lesson.mlClassId || null,
       mlStudentId: config.lesson.mlStudentId || null,
@@ -433,7 +438,7 @@ export default class LessonController extends cc.Component {
 
     const isCuba = Profile.getItem(IS_CUBA);
     if (isCuba) {
-      const customEvent = new CustomEvent("problemEnd", {
+      const customEvent = new CustomEvent(eventName, {
         detail: event,
       });
       window.parent.document.body.dispatchEvent(customEvent);
@@ -443,6 +448,7 @@ export default class LessonController extends cc.Component {
       console.log(eventName, " Event Logged ", isCuba, !isCuba, !!isCuba);
 
       UtilLogger.logChimpleEvent(eventName, event);
+      console.log("problemEnd event dispatched", event);
     }
     if (!Config.isMicroLink) {
       const deviceId = UtilLogger.currentDeviceId();
@@ -551,6 +557,11 @@ export default class LessonController extends cc.Component {
 
     if (isCuba) {
       const detail = {
+        studentId: config.microLinkData.studentid || null,
+        studentName: config.microLinkData.studentname || null,
+        classId: config.microLinkData.classid || null,
+        schoolId: config.microLinkData.schoolid || null,
+
         mlPartnerId: config.lesson.mlPartnerId || null,
         mlClassId: config.lesson.mlClassId || null,
         mlStudentId: config.lesson.mlStudentId || null,
@@ -596,6 +607,11 @@ export default class LessonController extends cc.Component {
     if (!isCuba) {
       console.log("lessonEnd Event Logged ", isCuba, !isCuba, !!isCuba);
       UtilLogger.logChimpleEvent("lessonEnd", {
+        studentId: config.microLinkData.studentid || null,
+        studentName: config.microLinkData.studentname || null,
+        classId: config.microLinkData.classid || null,
+        schoolId: config.microLinkData.schoolid || null,
+
         lessonSessionId: this.lessonSessionId,
         chapterName: config.chapter.name,
         chapterId: config.chapter.id,
@@ -826,6 +842,11 @@ export default class LessonController extends cc.Component {
           !!this.isCuba
         );
         UtilLogger.logChimpleEvent(eventName, {
+          studentId: config.microLinkData.studentid || null,
+          studentName: config.microLinkData.studentname || null,
+          classId: config.microLinkData.classid || null,
+          schoolId: config.microLinkData.schoolid || null,
+
           gameName: config.game,
           totalGames: config.totalProblems,
           currentGameNumber: config.problem,

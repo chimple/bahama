@@ -36,6 +36,11 @@ export default class QuitPopup extends cc.Component {
     if (this.isCuba) {
       const config = Config.getInstance();
       let details = {
+        studentId: config.microLinkData.studentid || null,
+        studentName: config.microLinkData.studentname || null,
+        classId: config.microLinkData.classid || null,
+        schoolId: config.microLinkData.schoolid || null,
+
         mlPartnerId: config.lesson.mlPartnerId || null,
         mlClassId: config.lesson.mlClassId || null,
         mlStudentId: config.lesson.mlStudentId || null,

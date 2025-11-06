@@ -6,6 +6,7 @@ import Config, { ALL_LANGS, StartAction, Lang, ASSIGNMENT_COURSE_ID } from "./co
 import {
     COUNTRY_CODES,
     CURRENT_STUDENT_ID,
+    currentPartner,
     EXAM,
     FIREBASE_SCHOOL_ID,
     FIREBASE_SECTION_ID,
@@ -209,6 +210,7 @@ export class User {
         UtilLogger.setUserIdEvent(id);
         UtilLogger.setUserPropertiesEvent("userName", name);
         UtilLogger.setUserPropertiesEvent("userAge", age);
+        UtilLogger.setUserPropertiesEvent("partnerID", currentPartner.NIPUN);
         this._genderEvent(gender);
         this.debug = debug
         this._serverId = serverId
