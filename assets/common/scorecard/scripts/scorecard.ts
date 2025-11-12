@@ -107,11 +107,13 @@ export default class Scorecard extends cc.Component {
   onContinueClick() {
     this.continueButton.getComponent(cc.Button).interactable = false;
     if (this.isCuba) {
-      const customEvent = new CustomEvent("gameEnd", {
+      const eventData = {
+        source: "gameEnd",
+        eventName: "gameEnd",
         detail: {},
-      });
-      window.parent.document.body.dispatchEvent(customEvent);
-      console.log("event dispatched", customEvent);
+      };
+      window.parent.postMessage(eventData, "*");
+      console.log("event dispatched", eventData);
       return;
     }
     if (cc.sys.isNative && Config.isMicroLink) {

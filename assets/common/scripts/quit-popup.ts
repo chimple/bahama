@@ -72,11 +72,14 @@ export default class QuitPopup extends cc.Component {
         left_game_no: config.problem,
         left_game_name: config.game,
       };
-      const customEvent = new CustomEvent(GAME_EXIT, {
+      
+      const eventData = {
+        source: GAME_EXIT,
+        eventName: GAME_EXIT,
         detail: details,
-      });
-      window.parent.document.body.dispatchEvent(customEvent);
-      console.log("event dispatched", customEvent);
+      };
+      window.parent.postMessage(eventData, "*");
+      console.log("event dispatched", eventData);
       return;
     }
     Config.i.popScene();

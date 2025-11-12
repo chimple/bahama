@@ -8,7 +8,7 @@ import {
 } from "./helper";
 import LessonController from "./lessonController";
 import Config, { StartAction } from "./lib/config";
-import { ASSET_LOAD_METHOD, COURSES_URL } from "./lib/constants";
+import { ASSET_LOAD_METHOD, COURSES_URL, IS_CUBA } from "./lib/constants";
 import Profile, { LANGUAGE, SFX_OFF, User } from "./lib/profile";
 import UtilLogger from "./util-logger";
 import Friend from "./friend";
@@ -974,6 +974,7 @@ export class Util {
       config.lesson.mlClassId = data.mlclassid || null;
       config.lesson.mlStudentId = data.mlstudentid || null;
       config.microLinkData = data;
+      localStorage.setItem(IS_CUBA, "true");
       LessonController.preloadLesson(node, (err: Error) => {
         if (err) {
           console.log(err);

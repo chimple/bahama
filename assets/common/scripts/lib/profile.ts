@@ -1029,7 +1029,16 @@ export default class Profile {
     }
 
     static getItem(item: string): number {
-        return Number(Profile.getValue(item) || 0);
+        // return Number(Profile.getValue(item) || 0);
+        const val: string = String(Profile.getValue(item) || ""); 
+        console.log("const val: string =",item,val);
+        
+        if (val.length > 0) {
+            console.log("getItem(item: string) return 1",item);
+            return 1;
+        } 
+        console.log("getItem(item: string) return 0",item);
+        return 0;
     }
 
     static setItem(item: string, val: number) {

@@ -363,6 +363,7 @@ export default class LessonController extends cc.Component {
     );
     console.log(
       "this.quizStartTime in problemEnd",
+      this.isQuiz,
       quizTimeSpent,
       new Date().getTime(),
       this.quizStartTime,
@@ -437,12 +438,16 @@ export default class LessonController extends cc.Component {
     config.timeSpent = timeSpent;
 
     const isCuba = Profile.getItem(IS_CUBA);
+
     if (isCuba) {
-      const customEvent = new CustomEvent(eventName, {
+      const eventData = {
+        source: eventName,
+        eventName: eventName,
         detail: event,
-      });
-      window.parent.document.body.dispatchEvent(customEvent);
-      console.log("problemEnd event dispatched", customEvent);
+      };
+      window.parent.postMessage(eventData, "*");
+
+      console.log(`${eventName} message sent via postMessage`, eventData);
     }
     if (!isCuba) {
       console.log(eventName, " Event Logged ", isCuba, !isCuba, !!isCuba);
@@ -465,7 +470,7 @@ export default class LessonController extends cc.Component {
         courseName: config.course.id,
         problemNo: config.problem,
         timeSpent: Math.abs(timeSpent),
-        userId: User.getCurrentUser().id,
+        userId: User?.getCurrentUser()?.id,
         deviceId: deviceId,
       };
       const headerCSV = Object.keys(logEventForIxo).join(",");
@@ -596,11 +601,13 @@ export default class LessonController extends cc.Component {
       //     this.quizScores
       //   );
       // }
-      const event = new CustomEvent("lessonEnd", {
+      const eventData = {
+        source: "lessonEnd",
+        eventName: "lessonEnd",
         detail: detail,
-      });
-      window.parent.document.body.dispatchEvent(event);
-      console.log("event dispatched", event);
+      };
+      window.parent.postMessage(eventData, "*");
+      console.log("event dispatched", eventData);
       // return;
     }
 
@@ -677,11 +684,13 @@ export default class LessonController extends cc.Component {
     console.log("isCuba ", isCuba, !isCuba, !!isCuba);
     if (isCuba) {
       console.log("no scorecard", isCuba, !!isCuba);
-      const customEvent = new CustomEvent("gameEnd", {
+      const eventData = {
+        source: "gameEnd",
+        eventName: "gameEnd",
         detail: {},
-      });
-      window.parent.document.body.dispatchEvent(customEvent);
-      console.log("line no 580 returning to cuba ", customEvent);
+      };
+      window.parent.postMessage(eventData, "*");
+      console.log("line no 580 returning to cuba ", eventData);
       return;
     } else {
       console.log("went scorecard", isCuba);
