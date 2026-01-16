@@ -36,6 +36,11 @@ export default class QuitPopup extends cc.Component {
     if (this.isCuba) {
       const config = Config.getInstance();
       let details = {
+        studentId: config.microLinkData.studentid || null,
+        studentName: config.microLinkData.studentname || null,
+        classId: config.microLinkData.classid || null,
+        schoolId: config.microLinkData.schoolid || null,
+
         mlPartnerId: config.lesson.mlPartnerId || null,
         mlClassId: config.lesson.mlClassId || null,
         mlStudentId: config.lesson.mlStudentId || null,
@@ -67,11 +72,14 @@ export default class QuitPopup extends cc.Component {
         left_game_no: config.problem,
         left_game_name: config.game,
       };
-      const customEvent = new CustomEvent(GAME_EXIT, {
+      
+      const eventData = {
+        source: GAME_EXIT,
+        eventName: GAME_EXIT,
         detail: details,
-      });
-      window.parent.document.body.dispatchEvent(customEvent);
-      console.log("event dispatched", customEvent);
+      };
+      window.parent.postMessage(eventData, "*");
+      console.log("event dispatched", eventData);
       return;
     }
     Config.i.popScene();

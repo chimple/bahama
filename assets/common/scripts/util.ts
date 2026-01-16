@@ -8,7 +8,7 @@ import {
 } from "./helper";
 import LessonController from "./lessonController";
 import Config, { StartAction } from "./lib/config";
-import { ASSET_LOAD_METHOD, COURSES_URL } from "./lib/constants";
+import { ASSET_LOAD_METHOD, COURSES_URL, IS_CUBA } from "./lib/constants";
 import Profile, { LANGUAGE, SFX_OFF, User } from "./lib/profile";
 import UtilLogger from "./util-logger";
 import Friend from "./friend";
@@ -100,8 +100,16 @@ export const INVENTORY_ICONS = {
 
 export interface MicroLink {
   courseid: string;
+  coursename: string;
   chapterid: string;
+  chaptername: string;
   lessonid: string;
+  lessonname: string;
+  studentid: string;
+  studentname: string;
+  classid: string;
+  schoolid: string;
+
   assignmentid?: string;
   mlpartnerid?: string;
   mlclassid?: string;
@@ -927,7 +935,7 @@ export class Util {
       config.course = {
         chapters: [],
         id: data.courseid,
-        name: "string",
+        name: data.coursename,
         lang: data.courseid == "maths" ? "en" : data.courseid,
         type: data.courseid == "maths" ? "maths" : "literacy",
         levels: [],
@@ -937,7 +945,7 @@ export class Util {
       config.chapter = {
         id: data.chapterid,
         lessons: [],
-        name: "string",
+        name: data.chaptername,
         image: "string",
         color: "string",
         course: config.course,
@@ -946,7 +954,7 @@ export class Util {
       config.lesson = {
         id: data.lessonid,
         image: "string",
-        name: "string",
+        name: data.lessonname,
         open: true,
         type: "string",
         skills: [],
@@ -966,6 +974,7 @@ export class Util {
       config.lesson.mlClassId = data.mlclassid || null;
       config.lesson.mlStudentId = data.mlstudentid || null;
       config.microLinkData = data;
+      localStorage.setItem(IS_CUBA, "true");
       LessonController.preloadLesson(node, (err: Error) => {
         if (err) {
           console.log(err);

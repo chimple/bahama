@@ -6,6 +6,7 @@ import Config, { ALL_LANGS, StartAction, Lang, ASSIGNMENT_COURSE_ID } from "./co
 import {
     COUNTRY_CODES,
     CURRENT_STUDENT_ID,
+    currentPartner,
     EXAM,
     FIREBASE_SCHOOL_ID,
     FIREBASE_SECTION_ID,
@@ -209,6 +210,7 @@ export class User {
         UtilLogger.setUserIdEvent(id);
         UtilLogger.setUserPropertiesEvent("userName", name);
         UtilLogger.setUserPropertiesEvent("userAge", age);
+        UtilLogger.setUserPropertiesEvent("partnerID", currentPartner.NIPUN);
         this._genderEvent(gender);
         this.debug = debug
         this._serverId = serverId
@@ -1027,7 +1029,16 @@ export default class Profile {
     }
 
     static getItem(item: string): number {
-        return Number(Profile.getValue(item) || 0);
+        // return Number(Profile.getValue(item) || 0);
+        const val: string = String(Profile.getValue(item) || ""); 
+        console.log("const val: string =",item,val);
+        
+        if (val.length > 0) {
+            console.log("getItem(item: string) return 1",item);
+            return 1;
+        } 
+        console.log("getItem(item: string) return 0",item);
+        return 0;
     }
 
     static setItem(item: string, val: number) {
