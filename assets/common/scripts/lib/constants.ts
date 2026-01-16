@@ -54,7 +54,7 @@ export const COURSE_SERVER = {
 
 export const COURSES_URL = ENV == 'web' ? '' : COURSE_SERVER[ENV][LANG];
 
-export const BUNDLE_URL = 'https://bahama-ta-stage.web.app/remote/'
+export const BUNDLE_URL = 'https://chimpleassets.nipunharyana.in/'
 export const ASSET_URL = 'https://media.githubusercontent.com/media/chimple/help-audio/main'
 // Moved from gameController
 export const LOG_GAME = 'game';
