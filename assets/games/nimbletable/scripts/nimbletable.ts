@@ -129,7 +129,7 @@ export default class NimbleTable extends Game {
         const el = this.arr_name[this.currentProblem];
         this.firstValue = el[4]; // 4 - first value
         this.secondValue = el[5];
-        this.mathSign = el[6];
+        this.mathSign = el[6] === '*' ? 'x' : el[6];
         this.rightAnswer = el[7];
         const tempString = "";
         var answerNode: cc.Node = null;
@@ -168,7 +168,7 @@ export default class NimbleTable extends Game {
             let labelNode = this.node.getChildByName("nextQues").getChildByName("transparentBg").getChildByName("containerNode").getChildByName("" + (i + 1));
             if (el[5] != "") {
                 let questionString = "";
-                labelNode.getComponent(cc.Label).string = questionString + el[4] + " " + el[6] + " " + el[5] + " = " + "?";
+                labelNode.getComponent(cc.Label).string = questionString + el[4] + " " + this.mathSign + " " + el[5] + " = " + "?";
             }
             else {
                 labelNode.getComponent(cc.Label).string = "";
