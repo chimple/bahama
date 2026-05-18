@@ -183,7 +183,7 @@
     "height": 640,
     "width": 1280
   },
-  "last-module-event-record-time": 1756184543966,
+  "last-module-event-record-time": 1779081795775,
   "assets-sort-type": "name",
   "facebook": {
     "appID": "",
@@ -199,6 +199,6 @@
   "migrate-history": [
     "cloud-function"
   ],
-  "start-scene": "7b718c8e-7a4f-4e53-8eeb-f503f4a94d96",
+  "start-scene": "4d606f5f-e0b8-4224-8181-da9ebbbd354e",
   "clear-simulator-cache": true
 }

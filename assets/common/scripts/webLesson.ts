@@ -14,6 +14,7 @@ export default class WebLesson extends cc.Component {
     else if (lang == Lang.KANNADA) Profile.setValue(LANGUAGE, Lang.KANNADA);
     else if (lang == Lang.MARATHI) Profile.setValue(LANGUAGE, Lang.MARATHI);
     else Profile.setValue(LANGUAGE, Lang.ENGLISH);
+    Util.loadi18NMapping(() => {});
 
     const input = {
       courseid: params.get("courseid"),
