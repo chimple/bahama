@@ -532,11 +532,11 @@ export default class Blender extends Game {
         const blender3 = this._mixture.getChildByName(BLENDER3_NODE);
 
         const hundredLabelNode: cc.Node = blender1.getChildByName(LABEL);
-        hundredLabelNode.getComponent(cc.Label).string = Util.i18NText('hundred');
+        hundredLabelNode.getComponent(cc.Label).string = Util.i18NText('hundreds');
         const tenLabelNode: cc.Node = blender2.getChildByName(LABEL);
-        tenLabelNode.getComponent(cc.Label).string = Util.i18NText('ten');
+        tenLabelNode.getComponent(cc.Label).string = Util.i18NText('tens');
         const oneLabelNode: cc.Node = blender3.getChildByName(LABEL);
-        oneLabelNode.getComponent(cc.Label).string = Util.i18NText('one');
+        oneLabelNode.getComponent(cc.Label).string = Util.i18NText('ones');
 
         this._hundredTextNode = blender1.getChildByName(TEXT_BG);
         this._tenTextNode = blender2.getChildByName(TEXT_BG);

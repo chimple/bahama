@@ -70,7 +70,7 @@ export default class Calculator extends Game {
     onLoad() {
 
         Util.loadi18NMapping(() => {
-            this.node.getChildByName("writeLabel").getComponent(cc.Label).string = Util.i18NText("Write here");
+            this.node.getChildByName("writeLabel").getComponent(cc.Label).string = Util.i18NText("");
         });
 
 
