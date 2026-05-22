@@ -44,7 +44,7 @@ const FRUITS = [
     "rewards/fruits/badal/pear",
     "rewards/fruits/badal/banana",
     "rewards/fruits/badal/strawberry",
-    "rewards/fruits/samundra/prawns",
+    //"rewards/fruits/samundra/prawns",
     "rewards/fruits/samundra/coconut",
     "rewards/fruits/samundra/watermelon",
     "rewards/fruits/samundra/tender_coconut",
