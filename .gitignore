@@ -101,3 +101,4 @@ assets/courses/hi/course-mr.meta
 
 scripts/python/venv/
 scripts/python/serviceAccountKey.json
+*.meta
