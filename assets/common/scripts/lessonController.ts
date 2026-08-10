@@ -447,7 +447,11 @@ export default class LessonController extends cc.Component {
       };
       window.parent.postMessage(eventData, "*");
 
-      console.log(`${eventName} message sent via postMessage`, eventData);
+      console.log(eventName, "message sent via postMessage", eventData);
+      if (cc.sys.isBrowser) {
+        console.log(eventName, "direct Firebase fallback", event);
+        UtilLogger.logChimpleEvent(eventName, event);
+      }
     }
     if (!isCuba) {
       console.log(eventName, " Event Logged ", isCuba, !isCuba, !!isCuba);
@@ -608,6 +612,10 @@ export default class LessonController extends cc.Component {
       };
       window.parent.postMessage(eventData, "*");
       console.log("event dispatched", eventData);
+      if (cc.sys.isBrowser) {
+        console.log("lessonEnd direct Firebase fallback", detail);
+        UtilLogger.logChimpleEvent("lessonEnd", detail);
+      }
       // return;
     }
 
