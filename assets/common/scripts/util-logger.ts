@@ -99,6 +99,9 @@ const SCORE = "score";
 const COURSE = "course";
 const ASSIGNMENTIDS = 'assignmentIds'
 const DATE = 'date'
+const FIREBASE_WEB_SDK_VERSION = "7.24.0";
+const FIREBASE_APP_SCRIPT = `https://www.gstatic.com/firebasejs/${FIREBASE_WEB_SDK_VERSION}/firebase-app.js`;
+const FIREBASE_ANALYTICS_SCRIPT = `https://www.gstatic.com/firebasejs/${FIREBASE_WEB_SDK_VERSION}/firebase-analytics.js`;
 
 export default class UtilLogger {
     private static _storageDirectory = null;
@@ -106,7 +109,37 @@ export default class UtilLogger {
     private static _currentDeviceId = null;
     private static _isfireBaseInitialized: boolean = false;
     private static firebase: any;
+    private static firebaseInitPromise: Promise<any> = null;
+    private static firebaseScriptLoadPromise: Promise<void> = null;
     private static score: number;
+
+    private static sanitizeFirebaseEventName(key: string): string {
+        const sanitizedKey = (key || "event").replace(/[^a-zA-Z0-9_]/g, "_");
+        const startsWithLetter = /^[a-zA-Z]/.test(sanitizedKey);
+        return (startsWithLetter ? sanitizedKey : `event_${sanitizedKey}`).substring(0, 40);
+    }
+
+    private static sanitizeFirebaseEventData(data: object) {
+        const eventData = {};
+        Object.keys(data || {}).forEach((key) => {
+            const sanitizedKey = key.replace(/[^a-zA-Z0-9_]/g, "_").substring(0, 40);
+            if (!sanitizedKey || !/^[a-zA-Z]/.test(sanitizedKey)) {
+                return;
+            }
+
+            const value = data[key];
+            if (value === undefined || value === null) {
+                eventData[sanitizedKey] = "";
+            } else if (typeof value === "boolean") {
+                eventData[sanitizedKey] = value ? 1 : 0;
+            } else if (typeof value === "number" || typeof value === "string") {
+                eventData[sanitizedKey] = value;
+            } else {
+                eventData[sanitizedKey] = JSON.stringify(value);
+            }
+        });
+        return eventData;
+    }
 
     public static logEvent(eventInfo: object) {
         try {
@@ -165,61 +198,132 @@ export default class UtilLogger {
     }
 
     public static logEventToFireBaseWithKey(key: string, data: object) {
+        const firebaseEventName = UtilLogger.sanitizeFirebaseEventName(key);
+        const firebaseEventData = UtilLogger.sanitizeFirebaseEventData(data);
         cc.log(
             "logging firebase event",
-            key,
+            firebaseEventName,
             " with content",
-            JSON.stringify(data)
+            JSON.stringify(firebaseEventData)
         );
 
         if ("undefined" != typeof sdkbox) {
             // @ts-ignore
-            sdkbox.firebase.Analytics.logEvent(key, data);
+            sdkbox.firebase.Analytics.logEvent(firebaseEventName, firebaseEventData);
         }
 
         if (cc.sys.isBrowser) {
-            cc.log("[CUBA debug] firebase analytics event", key, {
+            cc.log("[CUBA debug] firebase analytics event", firebaseEventName, {
                 projectId: firebaseConfigWeb.projectId,
                 databaseURL: firebaseConfigWeb.databaseURL,
                 appId: firebaseConfigWeb.appId,
                 measurementId: firebaseConfigWeb.measurementId,
             });
-            if (!UtilLogger._isfireBaseInitialized) {
-                (async () => {
-                    UtilLogger._isfireBaseInitialized = true;
-                    await UtilLogger.importFirebaseForWeb();
-                    if (UtilLogger.firebase) {
-                        cc.log("[CUBA debug] initializing Firebase web", {
-                            authDomain: firebaseConfigWeb.authDomain,
-                            databaseURL: firebaseConfigWeb.databaseURL,
-                            projectId: firebaseConfigWeb.projectId,
-                            storageBucket: firebaseConfigWeb.storageBucket,
-                            messagingSenderId: firebaseConfigWeb.messagingSenderId,
-                            appId: firebaseConfigWeb.appId,
-                            measurementId: firebaseConfigWeb.measurementId,
-                        });
-                        UtilLogger.firebase.initializeApp(firebaseConfigWeb);
-                        UtilLogger.firebase.analytics();
-                        UtilLogger.firebase.analytics().logEvent(key, data);
-                        cc.log("[CUBA debug] firebase analytics logEvent queued", key);
+            (async () => {
+                try {
+                    const firebase = await UtilLogger.initializeFirebaseForWeb();
+                    if (firebase) {
+                        firebase.analytics().logEvent(firebaseEventName, firebaseEventData);
+                        cc.log("[CUBA debug] firebase analytics logEvent queued", firebaseEventName, firebaseEventData);
+                    } else {
+                        cc.warn("[CUBA debug] firebase analytics unavailable", firebaseEventName);
                     }
-                })();
-            } else {
-                if (UtilLogger.firebase) {
-                    UtilLogger.firebase.analytics().logEvent(key, data);
-                    cc.log("[CUBA debug] firebase analytics logEvent queued", key);
-                } else {
-                    cc.warn("[CUBA debug] firebase analytics unavailable", key);
+                } catch (e) {
+                    cc.warn("[CUBA debug] firebase analytics logEvent failed", firebaseEventName, e);
                 }
-            }
+            })();
         }
     }
 
-    static async importFirebaseForWeb() {
-        // @ts-ignore
-        UtilLogger.firebase = await import("firebase/app");
-        // @ts-ignore
-        await import("firebase/analytics");
+    private static async initializeFirebaseForWeb() {
+        if (!UtilLogger.firebaseInitPromise) {
+            UtilLogger.firebaseInitPromise = (async () => {
+                await UtilLogger.loadFirebaseForWeb();
+                if (UtilLogger.firebase && !UtilLogger._isfireBaseInitialized) {
+                    cc.log("[CUBA debug] initializing Firebase web", {
+                        authDomain: firebaseConfigWeb.authDomain,
+                        databaseURL: firebaseConfigWeb.databaseURL,
+                        projectId: firebaseConfigWeb.projectId,
+                        storageBucket: firebaseConfigWeb.storageBucket,
+                        messagingSenderId: firebaseConfigWeb.messagingSenderId,
+                        appId: firebaseConfigWeb.appId,
+                        measurementId: firebaseConfigWeb.measurementId,
+                    });
+                    if (!UtilLogger.firebase.apps || UtilLogger.firebase.apps.length === 0) {
+                        UtilLogger.firebase.initializeApp(firebaseConfigWeb);
+                    }
+                    const analytics = UtilLogger.firebase.analytics();
+                    if (analytics.setAnalyticsCollectionEnabled) {
+                        analytics.setAnalyticsCollectionEnabled(true);
+                    }
+                    UtilLogger._isfireBaseInitialized = true;
+                }
+                return UtilLogger.firebase;
+            })().catch((e) => {
+                UtilLogger.firebaseInitPromise = null;
+                UtilLogger._isfireBaseInitialized = false;
+                throw e;
+            });
+        }
+        return UtilLogger.firebaseInitPromise;
+    }
+
+    private static async loadFirebaseForWeb() {
+        UtilLogger.loadFirebaseFromWindow();
+        if (UtilLogger.firebase) {
+            return;
+        }
+        if (!UtilLogger.firebaseScriptLoadPromise) {
+            UtilLogger.firebaseScriptLoadPromise = (async () => {
+                await UtilLogger.loadFirebaseScript(FIREBASE_APP_SCRIPT);
+                await UtilLogger.loadFirebaseScript(FIREBASE_ANALYTICS_SCRIPT);
+                UtilLogger.loadFirebaseFromWindow();
+                if (UtilLogger.firebase) {
+                    cc.log("[CUBA debug] Firebase web SDK loaded", FIREBASE_WEB_SDK_VERSION);
+                }
+            })().catch((e) => {
+                UtilLogger.firebaseScriptLoadPromise = null;
+                throw e;
+            });
+        }
+        await UtilLogger.firebaseScriptLoadPromise;
+    }
+
+    private static loadFirebaseFromWindow() {
+        const firebase = typeof window !== "undefined" ? (window as any).firebase : null;
+        if (!firebase || !firebase.analytics) {
+            UtilLogger.firebase = null;
+            return;
+        }
+        UtilLogger.firebase = firebase;
+    }
+
+    private static loadFirebaseScript(src: string): Promise<void> {
+        return new Promise((resolve, reject) => {
+            if (typeof document === "undefined") {
+                reject(new Error("document is not available"));
+                return;
+            }
+            const existingScript = document.querySelector(`script[src="${src}"]`) as HTMLScriptElement;
+            if (existingScript) {
+                if (existingScript.getAttribute("data-loaded") === "true") {
+                    resolve();
+                } else {
+                    existingScript.addEventListener("load", () => resolve());
+                    existingScript.addEventListener("error", () => reject(new Error(`Failed to load ${src}`)));
+                }
+                return;
+            }
+            const script = document.createElement("script");
+            script.src = src;
+            script.async = true;
+            script.onload = () => {
+                script.setAttribute("data-loaded", "true");
+                resolve();
+            };
+            script.onerror = () => reject(new Error(`Failed to load ${src}`));
+            document.head.appendChild(script);
+        });
     }
 
     public static logChimpleEvent(name: string, event: any) {
