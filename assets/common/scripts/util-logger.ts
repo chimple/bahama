@@ -178,18 +178,39 @@ export default class UtilLogger {
         }
 
         if (cc.sys.isBrowser) {
+            cc.log("[CUBA debug] firebase analytics event", key, {
+                projectId: firebaseConfigWeb.projectId,
+                databaseURL: firebaseConfigWeb.databaseURL,
+                appId: firebaseConfigWeb.appId,
+                measurementId: firebaseConfigWeb.measurementId,
+            });
             if (!UtilLogger._isfireBaseInitialized) {
                 (async () => {
                     UtilLogger._isfireBaseInitialized = true;
                     await UtilLogger.importFirebaseForWeb();
                     if (UtilLogger.firebase) {
+                        cc.log("[CUBA debug] initializing Firebase web", {
+                            authDomain: firebaseConfigWeb.authDomain,
+                            databaseURL: firebaseConfigWeb.databaseURL,
+                            projectId: firebaseConfigWeb.projectId,
+                            storageBucket: firebaseConfigWeb.storageBucket,
+                            messagingSenderId: firebaseConfigWeb.messagingSenderId,
+                            appId: firebaseConfigWeb.appId,
+                            measurementId: firebaseConfigWeb.measurementId,
+                        });
                         UtilLogger.firebase.initializeApp(firebaseConfigWeb);
                         UtilLogger.firebase.analytics();
                         UtilLogger.firebase.analytics().logEvent(key, data);
+                        cc.log("[CUBA debug] firebase analytics logEvent queued", key);
                     }
                 })();
             } else {
-                UtilLogger.firebase ? UtilLogger.firebase.analytics().logEvent(key, data) : '';
+                if (UtilLogger.firebase) {
+                    UtilLogger.firebase.analytics().logEvent(key, data);
+                    cc.log("[CUBA debug] firebase analytics logEvent queued", key);
+                } else {
+                    cc.warn("[CUBA debug] firebase analytics unavailable", key);
+                }
             }
         }
     }

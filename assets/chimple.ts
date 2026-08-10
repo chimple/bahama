@@ -16,7 +16,6 @@ import {
   ServiceConfig,
 } from "./common/scripts/services/ServiceConfig";
 import { AcceptTeacherRequest } from "./common/scripts/services/ServiceApi";
-import { Capacitor } from "@capacitor/core";
 
 const { ccclass, property } = cc._decorator;
 
@@ -155,7 +154,12 @@ export default class Chimple extends cc.Component {
         jsb.fileUtils.getWritablePath() + "HotUpdateSearchPaths",
         "@assets/",
       ]);
-    if (Capacitor.getPlatform() === "android") {
+    const capacitor = (window as any).Capacitor;
+    if (
+      capacitor &&
+      typeof capacitor.getPlatform === "function" &&
+      capacitor.getPlatform() === "android"
+    ) {
       cc.log("platform is android");
     }
     const params = location.href.split("?")[1]?.split("&") ?? [];
