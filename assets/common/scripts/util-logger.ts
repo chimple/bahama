@@ -207,9 +207,20 @@ export default class UtilLogger {
             JSON.stringify(firebaseEventData)
         );
 
+        // SDKBox is only available in native/plugin builds. Some web builds expose
+        // `sdkbox` without the Firebase plugin, so keep this path defensive.
         if ("undefined" != typeof sdkbox) {
-            // @ts-ignore
-            sdkbox.firebase.Analytics.logEvent(firebaseEventName, firebaseEventData);
+            try {
+                // @ts-ignore
+                if (sdkbox.firebase && sdkbox.firebase.Analytics && sdkbox.firebase.Analytics.logEvent) {
+                    // @ts-ignore
+                    sdkbox.firebase.Analytics.logEvent(firebaseEventName, firebaseEventData);
+                } else {
+                    cc.log("sdkbox.firebase analytics is undefined");
+                }
+            } catch (e) {
+                cc.warn("sdkbox firebase analytics logEvent failed", firebaseEventName, e);
+            }
         }
 
         if (cc.sys.isBrowser) {
