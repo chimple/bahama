@@ -354,19 +354,19 @@ export const COUNTRY_CODES: object[] = [
 ];
 
 export const firebaseConfigWeb = {
-    apiKey: "AIzaSyAqNGaNBLDNQ309JPDMbhXcZQyWSWua5UQ",
-    authDomain: "chimple-prod.firebaseapp.com",
-    databaseURL: "https://chimple-prod.firebaseio.com",
-    projectId: "chimple-prod",
-    storageBucket: "chimple-prod.appspot.com",
-    messagingSenderId: "733418845711",
-    appId: "1:733418845711:web:ffc43f8556b8ecaaa0957a",
-    measurementId: "G-1C9JN7P724"
+    apiKey: "AIzaSyBeWp-2avsWR8ulNxzxDs3hFamlTr75Ia0",
+    authDomain: "nipun-analytics.firebaseapp.com",
+    databaseURL: "https://nipun-analytics-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "nipun-analytics",
+    storageBucket: "nipun-analytics.firebasestorage.app",
+    messagingSenderId: "717799750081",
+    appId: "1:717799750081:web:1eb6a8e4b62210604c9740",
+    measurementId: "G-EBH1MBJSY8"
 };
 
 export const currentPartner = {
-    CHIMPLE:'chimple',
-    NIPUN:'nipun'
+    CHIMPLE: 'chimple',
+    NIPUN: 'nipun'
 }
 
 export interface School {

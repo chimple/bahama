@@ -5,7 +5,6 @@ import Profile, { LANGUAGE, LessonProgress, User } from "./profile";
 import TTFFont = cc.TTFFont;
 import { GAME_CONFIGS } from "./gameConfigs";
 import { BUNDLE_URL, IS_CUBA } from "./constants";
-import { Capacitor } from "@capacitor/core";
 
 export const DEFAULT_FONT = "main";
 export const STORY = "story";
@@ -46,6 +45,13 @@ export enum Direction {
 }
 
 const RTL_COURSES = ["ur", "ur-maths"];
+
+const getCapacitorPlatform = (): string | null => {
+  const capacitor = (window as any).Capacitor;
+  return capacitor && typeof capacitor.getPlatform === "function"
+    ? capacitor.getPlatform()
+    : null;
+};
 
 export enum Lang {
   ENGLISH = "en",
@@ -756,60 +762,58 @@ export default class Config {
     errCallback: Function
   ) {
     const isCuba = Profile.getItem(IS_CUBA);
-    const isAndroid = Capacitor.getPlatform() === "android";
+    const platform = getCapacitorPlatform();
+    const isAndroid = platform === "android";
     const gameUrl =
       cc.sys.localStorage.getItem("gameUrl") ??
       "http://localhost/_capacitor_file_/data/user/0/org.chimple.cuba/files/";
     const firstPath =
       isCuba && isAndroid && gameUrl ? gameUrl + lessonId : lessonId;
-    console.log(
-      "gameUrl",
-      gameUrl,
-      "isCuba",
+    const remoteFallbackPath = BUNDLE_URL + lessonId;
+    const finalFallbackPath = lessonId;
+
+    console.log("[CUBA debug] loadBundle config", {
+      lessonId,
       isCuba,
-      cc.sys.localStorage.getItem("gameUrl"),
-      "firstPath",
-      firstPath
-    );
+      platform,
+      isAndroid,
+      storedGameUrl: cc.sys.localStorage.getItem("gameUrl"),
+      gameUrl,
+      firstPath,
+      remoteFallbackPath,
+      finalFallbackPath,
+    });
+
+    console.log("[CUBA debug] loadBundle trying firstPath", firstPath);
     cc.assetManager.loadBundle(firstPath, (err, bundle) => {
-      if (err) {
-        // if (Capacitor.getPlatform() === 'android') {
-        //     const gameUrl = cc.sys.localStorage.getItem("gameUrl") ?? "http://localhost/_capacitor_file_/data/user/0/org.chimple.cuba/files/";
-        //     console.log("gameUrl", gameUrl, cc.sys.localStorage.getItem("gameUrl"))
-        //     const path = gameUrl + lessonId;
-        //     cc.assetManager.loadBundle(path, (err2, bundle2) => {
-        //         cc.log('loaded bundle with path ', path, "err", err2, "bundle", bundle2)
-        //         if (err2) {
-        //             cc.assetManager.loadBundle(BUNDLE_URL + lessonId, (err2, bundle2) => {
-        //                 if (err2) {
-        //                     errCallback(err2);
-        //                 } else {
-        //                     callback(bundle2);
-        //                 }
-        //             });
-        //         } else {
-        //             callback(bundle2);
-        //         }
-        //     });
-        // } else {
-        cc.assetManager.loadBundle(BUNDLE_URL + lessonId, (err2, bundle2) => {
-          if (err2) {
-            cc.assetManager.loadBundle(lessonId, (err3, bundle3) => {
-              if (err3) {
-                errCallback(err3);
-              } else {
-                callback(bundle3);
-              }
-            });
-            errCallback(err2);
-          } else {
-            callback(bundle2);
-          }
-        });
-        // }
-      } else {
+      if (!err) {
+        console.log("[CUBA debug] loadBundle firstPath success", firstPath);
         callback(bundle);
+        return;
       }
+
+      console.warn("[CUBA debug] loadBundle firstPath failed", firstPath, err);
+      console.log("[CUBA debug] loadBundle trying remoteFallbackPath", remoteFallbackPath);
+      cc.assetManager.loadBundle(remoteFallbackPath, (err2, bundle2) => {
+        if (!err2) {
+          console.log("[CUBA debug] loadBundle remoteFallbackPath success", remoteFallbackPath);
+          callback(bundle2);
+          return;
+        }
+
+        console.warn("[CUBA debug] loadBundle remoteFallbackPath failed", remoteFallbackPath, err2);
+        console.log("[CUBA debug] loadBundle trying finalFallbackPath", finalFallbackPath);
+        cc.assetManager.loadBundle(finalFallbackPath, (err3, bundle3) => {
+          if (!err3) {
+            console.log("[CUBA debug] loadBundle finalFallbackPath success", finalFallbackPath);
+            callback(bundle3);
+            return;
+          }
+
+          console.error("[CUBA debug] loadBundle finalFallbackPath failed", finalFallbackPath, err3);
+          errCallback(err3);
+        });
+      });
     });
   }
 

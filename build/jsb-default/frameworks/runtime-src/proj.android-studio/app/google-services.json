@@ -1,185 +1,27 @@
 {
   "project_info": {
-    "project_number": "105857221433",
-    "firebase_url": "https://bahama-stage.firebaseio.com",
-    "project_id": "bahama-stage",
-    "storage_bucket": "bahama-stage.appspot.com"
+    "project_number": "717799750081",
+    "firebase_url": "https://nipun-analytics-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "nipun-analytics",
+    "storage_bucket": "nipun-analytics.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:105857221433:android:ee3d192f7b7dd88070dee8",
-        "android_client_info": {
-          "package_name": "com.firebase.messaging.demo"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCH82wcawju_XAiibL6QKTpq-lGXahCGx8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:105857221433:android:610de84cef1e275770dee8",
+        "mobilesdk_app_id": "1:717799750081:android:a0e4618eeb4f4e924c9740",
         "android_client_info": {
           "package_name": "org.chimple.bahama"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "105857221433-229pvpug61ni8idido7hulgrk9nvlqhj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.chimple.bahama",
-            "certificate_hash": "b29d062a74ef883f2dbe5c6e55cfbb83f6ee77f1"
-          }
-        },
-        {
-          "client_id": "105857221433-65m87gt4osoplu7q8nc4iq9tl6kp7760.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.chimple.bahama",
-            "certificate_hash": "c731359e679653c6d493ea996711804e8496a16f"
-          }
-        },
-        {
-          "client_id": "105857221433-c3j1nem5p5dmvssls5t66amcj08iaei8.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.chimple.bahama",
-            "certificate_hash": "b79197a9ba4551396f0f32201d2c7de76712a6f4"
-          }
-        },
-        {
-          "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCH82wcawju_XAiibL6QKTpq-lGXahCGx8"
+          "current_key": "AIzaSyDs3razv9bsMIc1MlRFQWUR-dwRB1A2g74"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:105857221433:android:1f06e6ff01c1018570dee8",
-        "android_client_info": {
-          "package_name": "org.chimple.bahamasw"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCH82wcawju_XAiibL6QKTpq-lGXahCGx8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:105857221433:android:e51c212465234ec070dee8",
-        "android_client_info": {
-          "package_name": "org.chimple.malta.malta"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "105857221433-6l32fsjc7hnnltp9ugfg06epds5pjnkn.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.chimple.malta.malta",
-            "certificate_hash": "24d6245b1ff73b8d5583fa2f11bb7f03ef1d00c3"
-          }
-        },
-        {
-          "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCH82wcawju_XAiibL6QKTpq-lGXahCGx8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:105857221433:android:d80c5224a087b77970dee8",
-        "android_client_info": {
-          "package_name": "org.chimple.maths_fr"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCH82wcawju_XAiibL6QKTpq-lGXahCGx8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "105857221433-9ddesb1ms74e9d8jvtr07b2ajdtgtbm1.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
