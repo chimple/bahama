@@ -84,6 +84,8 @@ export default class LetterPair extends Game {
             this.totalPieces++;
             if (prefix == 2) {
                 Util.showHelp(card1, card2, () => {
+                    if (!cc.isValid(this.node) || !this.friend || !cc.isValid(this.friend.node)) return;
+
                     new cc.Tween().target(this.friend.node)
                     .to(0.25, {y: -600}, { progress: null, easing: 'sineOut' })  
                     .start()          
@@ -91,6 +93,19 @@ export default class LetterPair extends Game {
             }
         }
         Card.letDrag = true
+    }
+
+    protected onDestroy() {
+        Card.letDrag = true;
+        this.unscheduleAllCallbacks();
+        this.stopNodeWork(this.node);
+    }
+
+    private stopNodeWork(node: cc.Node) {
+        if (!node || !cc.isValid(node)) return;
+
+        node.stopAllActions();
+        node.children.forEach((child) => this.stopNodeWork(child));
     }
 
 
