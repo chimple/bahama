@@ -39,6 +39,7 @@ export default class LetterPair extends Game {
     @catchError()
     onLoad() {
         const data = Config.getInstance().data[0]
+        cc.log('[shapepair/letterpair] game onLoad', Config.i.game, Config.i.lesson && Config.i.lesson.id, data && data.length);
         const numCards = Math.floor((data.length - 5) / CONFIG_LEN) * 2;
         const allValues = Array(numCards / 2);
         for (let i = 0; i < numCards; i++) {
@@ -84,7 +85,10 @@ export default class LetterPair extends Game {
             this.totalPieces++;
             if (prefix == 2) {
                 Util.showHelp(card1, card2, () => {
-                    if (!cc.isValid(this.node) || !this.friend || !cc.isValid(this.friend.node)) return;
+                    if (!cc.isValid(this.node) || !this.friend || !cc.isValid(this.friend.node)) {
+                        cc.log('[shapepair/letterpair] skip help callback after destroy', Config.i.game, Config.i.lesson && Config.i.lesson.id);
+                        return;
+                    }
 
                     new cc.Tween().target(this.friend.node)
                     .to(0.25, {y: -600}, { progress: null, easing: 'sineOut' })  
@@ -96,6 +100,7 @@ export default class LetterPair extends Game {
     }
 
     protected onDestroy() {
+        cc.log('[shapepair/letterpair] game onDestroy', Config.i.game, Config.i.lesson && Config.i.lesson.id, this.totalPieces);
         Card.letDrag = true;
         this.unscheduleAllCallbacks();
         this.stopNodeWork(this.node);
@@ -110,9 +115,11 @@ export default class LetterPair extends Game {
 
 
     drop(isMatch: boolean) {
+        cc.log('[shapepair/letterpair] drop', Config.i.game, Config.i.lesson && Config.i.lesson.id, isMatch, this.totalPieces);
         this.isInteracting = false;
         if (isMatch) {
             if (--this.totalPieces <= 0) {
+                cc.log('[shapepair/letterpair] complete', Config.i.game, Config.i.lesson && Config.i.lesson.id);
                 this.node.emit('nextProblem');
             }
         }

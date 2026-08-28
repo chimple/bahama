@@ -115,6 +115,7 @@ export default class Card extends cc.Component {
     }
 
     onLoad() {
+        cc.log('[shapepair/letterpair] card onLoad', this.node.name, this.cardType, this.cardContent, this.audio);
         this.node.on('touchstart', this.onTouchStart, this);
         this.node.on('touchend', this.onTouchEnd, this);
         this.node.on('touchcancel', this.onTouchEnd, this);
@@ -128,7 +129,10 @@ export default class Card extends cc.Component {
         this.node.addChild(giftBox)
         if (this.cardType == 'image' || this.cardType == 'rotate') {
             Util.loadTexture(this.cardContent, (texture) => {
-                if (!texture || !this.isAlive()) return;
+                if (!texture || !this.isAlive()) {
+                    cc.log('[shapepair/letterpair] skip image texture callback', this.node && this.node.name, this.cardContent, !!texture, this.isAlive());
+                    return;
+                }
 
                 const spriteNode = new cc.Node('frontSprite');
                 const sprite = spriteNode.addComponent(cc.Sprite);
@@ -142,20 +146,24 @@ export default class Card extends cc.Component {
             });
         } else if (this.cardType == 'dice') {
             cc.resources.load('items/' + this.cardContent, cc.SpriteFrame, (err, spriteFrame) => {
-                if (!err && spriteFrame && this.isAlive()) {
+                if (err || !spriteFrame || !this.isAlive()) {
+                    cc.log('[shapepair/letterpair] skip dice texture callback', this.node && this.node.name, this.cardContent, err, !!spriteFrame, this.isAlive());
+                    return;
+                }
                     const spriteNode = new cc.Node('frontSprite');
                     const sprite = spriteNode.addComponent(cc.Sprite);
                     // @ts-ignore
                     sprite.spriteFrame = spriteFrame
                     spriteNode.scale = 0.9;
                     this.node.addChild(spriteNode);
-
-                }
             });
         } else if (this.cardType == 'number' || this.cardType == 'stick') {
             const image = this.cardType == 'number' ? FRUITS[Math.floor(Math.random() * FRUITS.length)] : 'items/shake/stick'
             cc.resources.load(image, cc.SpriteFrame, (err, spriteFrame) => {
-                if (!err && spriteFrame && this.isAlive()) {
+                if (err || !spriteFrame || !this.isAlive()) {
+                    cc.log('[shapepair/letterpair] skip counting texture callback', this.node && this.node.name, image, err, !!spriteFrame, this.isAlive());
+                    return;
+                }
                     const clNode = cc.instantiate(this.countingLayout);
                     const cl = clNode.getComponent(CountingLayout);
                     cl.fullCount = parseInt(this.cardContent);
@@ -222,9 +230,11 @@ export default class Card extends cc.Component {
         const toMatchName = this.node.name.substr(0, this.node.name.length - 1) + (lastChar == '1' ? '2' : '1');
         const pairNode = this.node.parent && this.node.parent.getChildByName(toMatchName);
         this.pairCard = pairNode ? pairNode.getComponent(Card) : null;
+        if (!this.pairCard) cc.log('[shapepair/letterpair] pair card missing', this.node.name, toMatchName);
     }
 
     onDestroy() {
+        cc.log('[shapepair/letterpair] card onDestroy', this.node && this.node.name);
         this.unregisterTouch()
         this.unscheduleAllCallbacks()
         this.stopNodeWork(this.node)
@@ -288,7 +298,10 @@ export default class Card extends cc.Component {
         if (this.isInteracting && this.isPairAlive()) {
             if (this.particleNode != null) {
                 const friendNode = this.getFriendNode();
-                if (!friendNode) return;
+                if (!friendNode) {
+                    cc.log('[shapepair/letterpair] correct flow missing friend node', this.node && this.node.name);
+                    return;
+                }
 
                 const blockNode = cc.instantiate(this.block)
                 const blockWidget = blockNode.getComponent(cc.Widget)
@@ -302,7 +315,10 @@ export default class Card extends cc.Component {
                     .to(0.25, {y: 0}, {progress: null, easing: 'sineOut'})
                     .call(() => {
                         const match = this.getMatch();
-                        if (!match) return;
+                        if (!match) {
+                            cc.log('[shapepair/letterpair] callback missing match', this.node && this.node.name);
+                            return;
+                        }
 
                         match.node.emit('correct');
                     })
@@ -316,7 +332,10 @@ export default class Card extends cc.Component {
                     .delay(0.5)
                     .call(() => {
                         const friend = this.getFriend();
-                        if (!friend || this.wordAudio == null) return;
+                        if (!friend || this.wordAudio == null) {
+                            cc.log('[shapepair/letterpair] skip speak callback', this.node && this.node.name, !!friend, !!this.wordAudio);
+                            return;
+                        }
 
                         friend.speak(this.wordAudio);
                     })
@@ -329,7 +348,10 @@ export default class Card extends cc.Component {
                         explode.position = this.node.position;
                         this.node.parent.addChild(explode);
                         const match = this.getMatch();
-                        if (!match) return;
+                        if (!match) {
+                            cc.log('[shapepair/letterpair] callback missing match', this.node && this.node.name);
+                            return;
+                        }
 
                         match.scheduleOnce(() => {
                             if (!this.isPairAlive()) return;
@@ -359,7 +381,10 @@ export default class Card extends cc.Component {
                         explode.position = this.pairCard.node.position;
                         this.node.parent.addChild(explode);
                         const match = this.getMatch();
-                        if (!match) return;
+                        if (!match) {
+                            cc.log('[shapepair/letterpair] callback missing match', this.node && this.node.name);
+                            return;
+                        }
 
                         match.scheduleOnce(() => {
                             if (cc.isValid(explode)) explode.destroy();
@@ -368,13 +393,19 @@ export default class Card extends cc.Component {
                     .start();
             } else {
                 const friendNode = this.getFriendNode();
-                if (!friendNode) return;
+                if (!friendNode) {
+                    cc.log('[shapepair/letterpair] wrong flow missing friend node', this.node && this.node.name);
+                    return;
+                }
 
                 new cc.Tween().target(friendNode)
                     .to(0.25, {y: 0}, {progress: null, easing: 'sineOut'})
                     .call(() => {
                         const match = this.getMatch();
-                        if (!match) return;
+                        if (!match) {
+                            cc.log('[shapepair/letterpair] callback missing match', this.node && this.node.name);
+                            return;
+                        }
 
                         match.node.emit('wrong');
                     })
@@ -393,7 +424,10 @@ export default class Card extends cc.Component {
                         if (!this.isPairAlive()) return;
 
                         const match = this.getMatch();
-                        if (!match) return;
+                        if (!match) {
+                            cc.log('[shapepair/letterpair] callback missing match', this.node && this.node.name);
+                            return;
+                        }
 
                         Card.letDrag = true
                         this.isInteracting = false
