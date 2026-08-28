@@ -269,7 +269,7 @@ export default class LessonController extends cc.Component {
             LessonController.friend.helpFile = `games/${Config.i.game}`;
             LessonController.friend.playIdleAnimation(1);
         }
-        if (this.gameNode != null) this.gameNode.removeFromParent();
+        this.cleanupGameNode(this.gameNode);
         this.gameNode = newGameNode;
         this.gameParent.addChild(this.gameNode);
         // if(gameComponent) Util.loadAccessoriesAndEquipAcc(this.friend.node.children[1], this.friend.node)
@@ -282,6 +282,22 @@ export default class LessonController extends cc.Component {
             this.gameNode.y = 0;
         }
         this.setupEventHandlers();
+    }
+
+    private cleanupGameNode(node: cc.Node) {
+        if (!node || !cc.isValid(node)) return;
+
+        node.targetOff(this);
+        this.stopNodeWork(node);
+        node.removeFromParent();
+        node.destroy();
+    }
+
+    private stopNodeWork(node: cc.Node) {
+        if (!node || !cc.isValid(node)) return;
+
+        node.stopAllActions();
+        node.children.forEach((child) => this.stopNodeWork(child));
     }
 
     private problemEnd(replaceScene: boolean, forward: boolean = true) {

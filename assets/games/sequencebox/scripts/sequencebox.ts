@@ -63,7 +63,7 @@ export default class SequenceBox extends Game {
                 } else {
                     this.createDropBox(this.longDrop, this.answer, layout)
                 }
-                firstDrop = layout.children[layout.childrenCount - 1]
+                firstDrop = layout && layout.childrenCount > 0 ? layout.children[layout.childrenCount - 1] : null
                 this.answerBox = newBox
             } else {
                 const label = newBox.getChildByName('label')
@@ -84,10 +84,12 @@ export default class SequenceBox extends Game {
                 .delay(delay)
                 .to(0.5, { y: 0 }, { progress: null, easing: 'cubicIn' })
                 .call(() => {
+                    if (!cc.isValid(this.node) || !cc.isValid(newBox)) return;
                     Util.playSfx(this.dropClip);
                 })
                 .delay(delay + 2)
                 .call(() => {
+                    if (!cc.isValid(this.node) || !cc.isValid(newBox)) return;
                     if (audioClips[index] != null) {
                         Util.play(audioClips[index], false)
                     }
@@ -95,7 +97,7 @@ export default class SequenceBox extends Game {
                         .to(0.25, { scale: 1.1 }, { progress: null, easing: 'sineOut' })
                         .to(0.25, { scale: 1 }, { progress: null, easing: 'sineIn' })
                         .call(() => {
-                            if (index + 1 == series.length) {
+                            if (index + 1 == series.length && cc.isValid(firstDrag) && cc.isValid(firstDrop)) {
                                 Util.showHelp(firstDrag, firstDrop)
                                 Drag.letDrag = true
                             }
@@ -126,13 +128,27 @@ export default class SequenceBox extends Game {
             tempNode.height = card.height
             tempNode.addChild(card)
             this.choices.addChild(tempNode)
-            if (element == firstDrop.name) {
+            if (firstDrop && element == firstDrop.name) {
                 firstDrag = card
             }
         })
     }
 
+    protected onDestroy() {
+        this.unscheduleAllCallbacks();
+        this.stopNodeWork(this.node);
+    }
+
+    private stopNodeWork(node: cc.Node) {
+        if (!node || !cc.isValid(node)) return;
+
+        node.stopAllActions();
+        node.children.forEach((child) => this.stopNodeWork(child));
+    }
+
     private createDropBox(dropPrefab: cc.Prefab, digit: string, layout: cc.Node) {
+        if (!dropPrefab || !layout) return;
+
         this.empty++;
         const drop = cc.instantiate(dropPrefab)
         drop.name = digit;
@@ -141,19 +157,31 @@ export default class SequenceBox extends Game {
 
     @catchError()
     onMatch() {
+        if (!cc.isValid(this.node)) return
         this.node.emit('correct')
         if (--this.empty <= 0) {
-            this.answerBox.getChildByName('layout').active = false
+            if (!cc.isValid(this.answerBox)) {
+                this.node.emit('nextProblem')
+                return
+            }
+            const layout = this.answerBox.getChildByName('layout')
+            if (layout) layout.active = false
             const label = this.answerBox.getChildByName('label')
-            const labelComp = label.getComponent(cc.Label)
-            labelComp.string = this.answer
+            const labelComp = label && label.getComponent(cc.Label)
+            if (labelComp) labelComp.string = this.answer
             const anim = this.answerBox.getComponent(cc.Animation)
+            if (!anim) {
+                this.node.emit('nextProblem')
+                return
+            }
             anim.on('finished', () => {
+                if (!cc.isValid(this.node) || !cc.isValid(this.answerBox)) return
                 const particle = this.answerBox.getChildByName('particlesystem')
                 if (particle != null) {
                     const particleSystem = particle.getComponent(cc.ParticleSystem)
                     particleSystem.resetSystem()
                     this.scheduleOnce(() => {
+                        if (!cc.isValid(this.node) || !cc.isValid(particleSystem)) return
                         particleSystem.stopSystem()
                         this.node.emit('nextProblem')
                     }, 3)
